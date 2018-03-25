@@ -1,0 +1,99 @@
+main {
+	position: absolute;
+	top: 3%;
+}
+
+.container {
+	margin: 0 auto;
+	position: relative;
+	width: 80%;
+}
+
+.container:hover .overlay {
+	opacity: 1;
+}
+
+.overlay {
+	position: absolute;
+	margin: 0 auto;
+	z-index: 4;
+  	width: 100%;
+  	opacity: 0;
+  	transition: .5s ease;
+  	top: 0;
+}
+
+.overlay img {
+	width: 100%;
+	height: 11.5em;
+	overflow: hidden;
+}
+
+.writing-cards {
+	background-color: #89E6EA;
+}
+
+.design-cards {
+	background-color: #FF9FBA;
+}
+
+.writing-cards, .design-cards {
+	width: 100%;
+	height: 11.5em;
+	display: block;
+	text-align: left;
+	padding: 1.6em;
+	margin: 4.5em 0 4em 0;
+	position: relative;
+	top: 0;
+}
+
+.writing-cards h2, .design-cards h2 {
+	font-size: 3.5vw;
+	color: white;
+	position: relative;
+	z-index: 5;
+}
+
+.writing-cards p, .design-cards p {
+	font-size: 1.25em;
+	position: relative;
+	z-index: 5;
+}
+
+@media screen and (max-width: 1000px) {
+	.writing-cards h2, .design-cards h2 {
+		font-size: 3em;
+	}
+
+	.writing-cards p, .design-cards p {
+		display: none;
+	}
+
+	.overlay {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 645px) {
+	.writing-cards, .design-cards {
+		height: 14.5em;
+	}
+}
+
+@media screen and (max-width: 510px) {
+	.writing-cards, .design-cards {
+		margin-top: 8em;
+		margin-bottom: -5em;
+		height: 14em;
+	}
+
+	.writing-cards h2, .design-cards h2 {
+		font-size: 2.5em;
+		vertical-align: center;
+	}
+
+	.container {
+		width: 100%;
+	}
+}
