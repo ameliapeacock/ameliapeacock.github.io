@@ -12,7 +12,7 @@ html {
 	margin: 0 auto;
 	position: absolute;
 	z-index: 3;
-	top: 10%;
+	top: 13%;
 }
 
 .img-container {
@@ -24,7 +24,7 @@ html {
 #phone, #email, #home {
 	display: inline-block;
 	width: 30%;
-	margin: 12px;
+	margin: 13px;
 	min-width: 250px;
 }
 
@@ -42,8 +42,15 @@ html {
 	left: 0;
 	margin: 0 auto;
 	position: absolute;
-	top: 33%;
+	top: 35%;
 	z-index: 2;
+}
+
+form {
+	z-index: 5;
+	top: 45%;
+	left: 76%;
+	position: absolute;
 }
 
 @media screen and (min-width: 1175px) {
