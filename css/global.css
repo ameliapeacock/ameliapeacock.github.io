@@ -1,0 +1,146 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	width: 100vw;
+	height: 100vh;
+	align-items: center;
+	text-align: center;
+	font-size: 10pt;
+}
+
+h1 {
+	font-family: rift, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10em;
+	color: #89E6EA;
+	letter-spacing: .05em;
+	margin: 0 auto;
+	transform: scale(1,1.25);
+}
+
+h2 {
+	font-family: rift, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 5em;
+	color: #FF9FBA;
+	letter-spacing: .05em;
+	margin: 0 auto;
+}
+
+h3 {
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.2em;
+	line-height: .85em;
+	color: #666666;
+	display: inline;
+}
+
+p {
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.45em;
+	color: #666666;
+	display: inline;
+}
+
+a {
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1em;
+	text-decoration: none;
+	color: #89E6EA;
+}
+
+a:hover {
+	color: #FF9FBA;
+}
+
+li {
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.5em;
+	text-decoration: none;
+	color: #666666;
+	text-align: left;
+}
+
+.vline {
+	color: white;
+	display: inline;
+	font-size: 3em;
+	margin: 0em .1em 0 .1em;
+}
+
+header {
+	width: 100%;
+	position: absolute;
+	z-index: 10;
+}
+
+nav {
+	float: right;
+}
+
+nav a {
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.4em;
+	text-decoration: none;
+	color: #666666;
+	margin: 0 auto;
+	padding: 1em 1em 0 1.5em;
+	display: inline-block;
+}
+
+.logo {
+	height: 3.5em;
+	float: left;
+	display: inline-block;
+	margin: 1em 0 0 1em;
+}
+
+main {
+	clear: both;
+}
+
+@media screen and (min-width: 1281px) {
+	.logo {
+		height: 4em;
+	}
+}
+
+@media screen and (max-width: 510px) {
+	nav a {
+		display: inline;
+		width: 100%;
+		margin: 0 auto;
+		padding: 1.5em .5em 1.5em .5em;
+
+	}
+
+	nav {
+		float: none;
+	}
+
+	.logo {
+		float: none;
+		display: block;
+		align-items: center;
+		margin: 0 auto;
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
+	body {
+		height: 100%;
+	}
+
+}
