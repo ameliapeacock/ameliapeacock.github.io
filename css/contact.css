@@ -1,0 +1,92 @@
+html {
+	box-sizing:border-box;
+	& * {
+		box-sizing:inherit;
+	}
+}
+
+#container {
+	max-width: 70%;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+	z-index: 3;
+	top: 10%;
+}
+
+.img-container {
+	width: 100%;
+	line-height: 0;
+	font-size: 0;
+}
+
+#phone, #email, #home {
+	display: inline-block;
+	width: 30%;
+	margin: 12px;
+	min-width: 250px;
+}
+
+#phone img, #email img, #home img {
+	vertical-align: top;
+	width: 100%;
+	padding: 20em;
+}
+
+#rectangle, #rectangle2, #rectangle3 {
+	width: 80%;
+	height: 35%;
+	background: #89E6EA;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+	top: 33%;
+	z-index: 2;
+}
+
+@media screen and (min-width: 1175px) {
+	#rectangle2, #rectangle3 {
+		visibility: hidden;
+	}
+}
+
+@media screen and (max-width: 1175px) {
+	#rectangle2 {
+		visibility: visible;
+		top: 110%;
+	}
+}
+
+@media screen and (max-width: 785px) {
+	#rectangle3 {
+		visibility: visible;
+		top: 185%;
+	}
+}
+
+@media screen and (max-width: 510px) {
+	#container {
+		top: 20%;
+	}
+
+	#rectangle, #rectangle2, #rectangle3 {
+		width: 100%;
+	}
+
+	#rectangle {
+		visibility: visible;
+		top: 38%;
+	}
+
+	#rectangle2 {
+		visibility: visible;
+		top: 115%;
+	}
+
+	#rectangle3 {
+		visibility: visible;
+		top: 190%;
+	}
+}
