@@ -1,0 +1,9 @@
+#rectangle {
+	width: 80%;
+	height: 35%;
+	background: #89E6EA;
+	left: 10%;
+	position: absolute;
+	top: 43%;
+	z-index: 2;
+}
