@@ -36,6 +36,16 @@
 	margin-bottom: 5em;
 }
 
+.samples1 {
+	width: 40%;
+	z-index: 5;
+	position: relative;
+	display: block;
+	left: 10%;
+	top: 90px;
+	margin-bottom: 5em;
+}
+
 #icons {
 	width: 70%;
 	float: left;
@@ -45,7 +55,7 @@
 #sample-copy {
 	width: 48%;
 	position: absolute;
-	left: 53%;
+	left: 52%;
 	top: 32em;
 	padding-right: 9em;
 	text-align: left;
