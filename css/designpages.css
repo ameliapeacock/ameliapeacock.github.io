@@ -59,7 +59,10 @@
 	top: 32em;
 	padding-right: 9em;
 	text-align: left;
-	display: block;
+}
+
+.display {
+	display: block !important;
 }
 
 
