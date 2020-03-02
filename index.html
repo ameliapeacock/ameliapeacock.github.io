@@ -4,29 +4,88 @@
 <head>
 	<title>Meet Amelia</title>
 	<link rel="stylesheet" type="text/css" href="css/global.css">
-	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/type.css">
+	<link rel="stylesheet" type="text/css" href="css/color.css">
+	<link rel="stylesheet" type="text/css" href="css/links.css">
+	<link rel="stylesheet" type="text/css" href="css/spacing.css">
+	<script type="text/javascript" src="scripts/js.js"></script>
 	<link rel="icon" type="image/x-icon" href="http://ameliapeacock.design/images/logo-pink.png" />
 	<script src="https://use.typekit.net/jls1ojl.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
+<body class="color-bg-500">
 
 <header>
-	<a href="https://ameliapeacock.design"><img class="logo" src="images/logo-pink.png"></a>
-	<nav>
-		<a href="http://ameliapeacock.design/design">Design</a>
-		<a href="http://ameliapeacock.design/writing">Writing</a> 
-		<a href="http://ameliapeacock.design/contact">Contact</a>
+	<nav class="hide-portable  zeta-padding  desk-nav">
+		<a href="http://ameliapeacock.design/" class="button-500  float-left"><img src="images/icons/icon-home.svg" class="icon"> Home</a>
+		<a href="http://ameliapeacock.design/design" class="button-500  float-right"><img src="images/icons/icon-design.svg" class="icon"> Design</a>
+		<a href="http://ameliapeacock.design/writing" class="button-500  float-right"><img src="images/icons/icon-write.svg" class="icon"> Writing</a>
+		<a href="http://ameliapeacock.design/contact" class="button-500  float-right"><img src="images/icons/icon-contact.svg" class="icon"> Contact</a>
+		<a href="http://ameliapeacock.design/resume" class="button-500  float-right"><img src="images/icons/icon-resume.svg" class="icon"> Resume</a>
+	</nav>
+	<nav class="hide-desk  epsilon-padding">
+	  	<a class="toggle  button-500  no-underline" href="#example"><img src="images/icons/icon-menu.svg" class="icon"> Menu</a>
+		<div class="toggle-content  delta-padding-top  alpha-padding-bottom" id="example">
+		  	<a href="http://ameliapeacock.design/" class="no-underline"><button class="button-500  display-block"><img src="images/icons/icon-home.svg" class="icon"> Home</button></a>
+			<a href="http://ameliapeacock.design/design" class="no-underline"><button class="button-500  display-block"><img src="images/icons/icon-design.svg" class="icon"> Design</button></a>
+			<a href="http://ameliapeacock.design/writing" class="no-underline"><button class="button-500  display-block"><img src="images/icons/icon-write.svg" class="icon"> Writing</button></a>
+			<a href="http://ameliapeacock.design/contact" class="no-underline"><button class="button-500  display-block"><img src="images/icons/icon-contact.svg" class="icon"> Contact</button></a>
+			<a href="http://ameliapeacock.design/contact" class="no-underline"><button class="button-500  display-block"><img src="images/icons/icon-resume.svg" class="icon"> Resume</button></a>
+		</div>
 	</nav>
 </header>
 
 <main>
-	<h1 id="name-header">TEST</h1>
-	<div id="rectangle"></div>
-	<img id="face" src="images/portrait.png">
-	<h2 id="catchphrase">Designer. Writer. Dungeon Master.</h2>
+	<h1 class="alpha  color-000  text-center  gamma-margin-top">- AMELIA -</h1>
+	<h2 class="gamma color-300  text-center  epsilon-padding-top  gamma-margin-bottom">Designer. Writer. Dungeon Master.</h2>
+
+	<div class="grid-3">
+		<div class="card  color-bg-500  epsilon-margin">
+			<div class="color-bg-300  gamma-padding">Image</div>
+			<div class="epsilon-padding">
+				<h2 class="delta  color-000">Design System Creation</h2>
+				<p class="epsilon  color-300  epsilon-padding-top">I created a component based design system for Capterra.</p>
+				<button class="button-100-outline  epsilon-margin-top">
+					<a href="http://ameliapeacock.design/resume" class="no-underline  color-100">Learn More</a>
+				</button>
+			</div>
+		</div>
+		<div class="card  color-bg-500  epsilon-margin">
+			<div class="color-bg-300  gamma-padding">Image</div>
+			<div class="epsilon-padding">
+				<h2 class="delta  color-000">Design System Creation</h2>
+				<p class="epsilon  color-300  epsilon-padding-top">I created a component based design system for Capterra.</p>
+				<button class="button-100-outline  epsilon-margin-top">
+					<a href="http://ameliapeacock.design/resume" class="no-underline  color-100">Learn More</a>
+				</button>
+			</div>
+		</div>
+		<div class="card  color-bg-500  epsilon-margin">
+			<div class="color-bg-300  gamma-padding">Image</div>
+			<div class="epsilon-padding">
+				<h2 class="delta  color-000">Design System Creation</h2>
+				<p class="epsilon  color-300  epsilon-padding-top">I created a component based design system for Capterra.</p>
+				<button class="button-100-outline  epsilon-margin-top">
+					<a href="http://ameliapeacock.design/resume" class="no-underline  color-100">Learn More</a>
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<h3 class="gamma  color-000  text-center  beta-padding-top">Want to see more of Amelia's work?</h3>
+	<p class="epsilon  color-300  text-center  epsilon-padding-top">Check out her full design portfolio:</p>
+	<div class="text-center  gamma-padding-bottom">
+		<button class="button-500  epsilon-margin">
+			<a href="http://ameliapeacock.design/resume" class="no-underline  color-100"><img src="images/icons/icon-design.svg" class="icon"> All Design Examples</a>
+		</button>
+	</div>
+
+	<div class="rectangle-1  color-bg-100"></div>
+	<div class="rectangle-2  color-bg-100  hide-desk"></div>
+	<div class="rectangle-3  color-bg-100  hide-desk"></div>
+
 </main>
 
 </body>
