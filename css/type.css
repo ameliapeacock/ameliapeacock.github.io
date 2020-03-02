@@ -1,0 +1,60 @@
+
+.alpha {
+	font-family: rift, sans-serif;
+	font-style: normal;
+	font-size: 120px;
+	letter-spacing: 20px;
+	transform: scale(1,1.25);
+	font-weight: 400;
+	line-height: auto;
+}
+@media screen and (max-width: 1025px) { .alpha { font-size: 40px; line-height: 64px; }}
+
+.beta {
+	font-family: rift, sans-serif;
+	font-style: normal;
+	font-size: 40px;
+	letter-spacing: 2px;
+	line-height: 64px;
+}
+@media screen and (max-width: 1025px) { .beta { font-size: 32px; line-height: 48px; }}
+
+.gamma {
+	font-family: rift, sans-serif;
+	font-style: normal;
+	font-size: 32px;
+	letter-spacing: 2px;
+	line-height: 48px;
+}
+@media screen and (max-width: 1025px) { .gamma { font-size: 24px; line-height: 40px; }}
+
+.delta {
+	font-family: rift, sans-serif;
+	font-style: normal;
+	font-size: 24px;
+	letter-spacing: 2px;
+	line-height: 32px;
+}
+@media screen and (max-width: 1025px) { .delta { font-size: 20px; line-height: 28px; }}
+
+.epsilon {
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-size: 16px;
+	letter-spacing: .4px;
+	line-height: 24px;
+}
+
+.weight-bold { font-weight: 900; }
+
+.weight-normal { font-weight: 400; }
+
+.italic { font-style: italic; }
+
+.no-underline { text-decoration: none !important; }
+
+.text-center { text-align: center; }
+
+.text-right { text-align: right; }
+
+.text-left { text-align: left; }
