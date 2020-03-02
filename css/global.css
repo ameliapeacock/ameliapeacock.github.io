@@ -87,34 +87,11 @@ iframe {
 }
 @media screen and (max-width: 1025px) {
 	.rectangle-1 {
-		width: 96%;
-		top: 60%;
+		display: none;
 	}
 }
 
-@media screen and (max-width: 1025px) {
-	.rectangle-2 {
-		width: 96%;
-		top: 135%;
-		height: 40px;
-		position: absolute;
-		z-index: -1;
-		border-radius: 100px;
-	}
-}
-
-@media screen and (max-width: 1025px) {
-	.rectangle-3 {
-		width: 96%;
-		top: 208%;
-		height: 40px;
-		position: absolute;
-		z-index: -1;
-		border-radius: 100px;
-	}
-}
-
-.rectangle-4 {
+.rectangle-2 {
 	width: 80%;
 	height: 40px;
 	position: absolute;
@@ -123,31 +100,8 @@ iframe {
 	border-radius: 100px;
 }
 @media screen and (max-width: 1025px) {
-	.rectangle-4 {
-		width: 96%;
-		top: 280%;
-	}
-}
-
-@media screen and (max-width: 1025px) {
-	.rectangle-5 {
-		width: 96%;
-		top: 355%;
-		height: 40px;
-		position: absolute;
-		z-index: -1;
-		border-radius: 100px;
-	}
-}
-
-@media screen and (max-width: 1025px) {
-	.rectangle-6 {
-		width: 96%;
-		top: 428%;
-		height: 40px;
-		position: absolute;
-		z-index: -1;
-		border-radius: 100px;
+	.rectangle-2 {
+		display: none;
 	}
 }
 
