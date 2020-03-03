@@ -114,3 +114,7 @@ iframe {
 .blue-border-bottom {
 	border-bottom: 1px solid #264D56;
 }
+
+li {
+	margin: 10px 0 10px 0;
+}

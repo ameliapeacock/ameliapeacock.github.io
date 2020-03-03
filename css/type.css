@@ -45,6 +45,14 @@
 	line-height: 24px;
 }
 
+.zeta {
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-size: 14px;
+	letter-spacing: .4px;
+	line-height: 22px;
+}
+
 .weight-bold { font-weight: 900; }
 
 .weight-normal { font-weight: 400; }
@@ -58,3 +66,5 @@
 .text-right { text-align: right; }
 
 .text-left { text-align: left; }
+
+.roomy { line-height: 32px }
