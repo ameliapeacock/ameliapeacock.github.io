@@ -66,18 +66,6 @@ iframe {
 .float-right { float: right; }
 
 @media screen and (min-width: 1025px) {
-.mobile-float-left {
-	float: left;
-	}
-}
-
-@media screen and (min-width: 1025px) {
-.mobile-float-right {
-	float: right;
-	}
-}
-
-@media screen and (min-width: 1025px) {
 .hide-desk {
 	display: none;
 	}
