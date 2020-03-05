@@ -1,7 +1,7 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
-	color: #00131E;
+	color: #001426;
 }
 
 main {
@@ -77,32 +77,14 @@ iframe {
 	}
 }
 
-.rectangle-1 {
-	width: 80%;
+.rectangle {
+	width: 100%;
 	height: 40px;
-	position: absolute;
-	top: 90%;
+	position: relative;
+	top: -250px;
 	z-index: -1;
 	border-radius: 100px;
-}
-@media screen and (max-width: 1025px) {
-	.rectangle-1 {
-		display: none;
-	}
-}
-
-.rectangle-2 {
-	width: 80%;
-	height: 40px;
-	position: absolute;
-	top: 165%;
-	z-index: -1;
-	border-radius: 100px;
-}
-@media screen and (max-width: 1025px) {
-	.rectangle-2 {
-		display: none;
-	}
+	background-color: #03E2B7;
 }
 
 .card {
