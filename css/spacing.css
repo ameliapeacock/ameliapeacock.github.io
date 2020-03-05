@@ -70,6 +70,12 @@
 .zeta-margin-left { margin-left: 8px; }
 
 
+@media screen and (max-width: 1025px) {
+	.mobile-no-padding {
+		padding: 0 !important;
+	}
+}
+
 .grid-2 {
 	display: grid;
 	grid-template-columns: repeat(2, 50%);
@@ -125,6 +131,10 @@
 
 .full-width {
 	width: 100%;
+}
+
+.seventy-five-width {
+	width: 75%;
 }
 
 .half-width {

@@ -11,7 +11,7 @@
 .dark-link {
 	text-decoration: underline;
 	font-weight: 900;
-	color: #00131E;
+	color: #001426;
 }
 
 .dark-link:hover {
@@ -24,7 +24,7 @@
 	font-style: normal;
 	font-size: 16px;
 	letter-spacing: .4px;
-	color: #00131E;
+	color: #001426;
 	font-weight: 900;
 	padding: 8px 24px 8px 24px;
 	border-radius: 32px;
@@ -60,7 +60,7 @@
 }
 
 .button-500 {
-	background-color: #00131E;
+	background-color: #001426;
 	font-family: proxima-nova, sans-serif;
 	font-style: normal;
 	font-size: 16px;
@@ -69,7 +69,7 @@
 	font-weight: 900;
 	padding: 8px 24px 8px 24px;
 	border-radius: 32px;
-	border: 2px solid #00131E;
+	border: 2px solid #001426;
 	text-decoration: none;
 }
 
@@ -85,11 +85,11 @@
 	font-style: normal;
 	font-size: 16px;
 	letter-spacing: .4px;
-	color: #00131E;
+	color: #001426;
 	font-weight: 900;
 	padding: 8px 24px 8px 24px;
 	border-radius: 32px;
-	border: 2px solid #00131E;
+	border: 2px solid #001426;
 	text-decoration: none;
 }
 
