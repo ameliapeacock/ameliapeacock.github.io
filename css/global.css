@@ -35,7 +35,7 @@ iframe {
 	}
 }
 
-thin-border {
+.thin-border {
 	border-top: .5px solid #264D56;
 	padding-top: 8px;
 }
