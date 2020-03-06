@@ -35,6 +35,10 @@ iframe {
 	}
 }
 
+hr {
+	border: .5px solid #264D56;
+}
+
 .desk-nav {
 	height: 54px;
 }
