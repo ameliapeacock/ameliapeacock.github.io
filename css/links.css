@@ -1,100 +1,69 @@
-.green-link {
-	text-decoration: underline;
-	font-weight: 900;
-	color: #03E2B7;
-}
-
-.green-link:hover {
-	color: #0CBF9D;
-}
-
-.dark-link {
-	text-decoration: underline;
-	font-weight: 900;
-	color: #001426;
-}
-
-.dark-link:hover {
-	color: #002838;
-}
-
-.button-100 {
-	background-color: #03E2B7;
-	font-family: proxima-nova, sans-serif;
-	font-style: normal;
-	font-size: 16px;
-	letter-spacing: .4px;
-	color: #001426;
-	font-weight: 900;
-	padding: 8px 24px 8px 24px;
-	border-radius: 32px;
-	border: 2px solid #03E2B7;
-	text-decoration: none;
-}
-
-.button-100:hover {
-	background-color: #0CBF9D;
-	cursor: pointer;
-	border: 2px solid #0CBF9D;
-
-}
-
-.button-100-outline {
+.button-light {
 	background-color: transparent;
 	font-family: proxima-nova, sans-serif;
 	font-style: normal;
+	letter-spacing: 1px;
 	font-size: 16px;
-	letter-spacing: .4px;
-	color: #03E2B7;
-	font-weight: 900;
-	padding: 8px 24px 8px 24px;
+	color: #4608BF;
+	font-weight: bold;
+	padding: 8px 20px 8px 20px;
 	border-radius: 32px;
-	border: 2px solid #03E2B7;
 	text-decoration: none;
+	background-color: #E2DEEE;
+	transition: 0.2s;
+	border: none;
 }
 
-.button-100-outline:hover {
-	background-color: rgba(3, 226, 183, .1);
+.button-light:hover {
+	background-color: rgba(70, 8, 191, .2);
 	cursor: pointer;
-	border: 2px solid #03E2B7;
 }
 
-.button-500 {
-	background-color: #001426;
-	font-family: proxima-nova, sans-serif;
-	font-style: normal;
-	font-size: 16px;
-	letter-spacing: .4px;
-	color: #03E2B7;
-	font-weight: 900;
-	padding: 8px 24px 8px 24px;
-	border-radius: 32px;
-	border: 2px solid #001426;
-	text-decoration: none;
+@media screen and (max-width: 1025px) {
+	.button-light {
+		font-size: 14px;
+	}
 }
 
-.button-500:hover {
-	background-color: #002838;
-	cursor: pointer;
-	border: 2px solid #002838;
-}
-
-.button-500-outline {
+.button-dark {
 	background-color: transparent;
 	font-family: proxima-nova, sans-serif;
 	font-style: normal;
+	letter-spacing: 1px;
 	font-size: 16px;
-	letter-spacing: .4px;
-	color: #001426;
-	font-weight: 900;
-	padding: 8px 24px 8px 24px;
+	color: #F4F4F4;
+	font-weight: bold;
+	padding: 8px 20px 8px 20px;
 	border-radius: 32px;
-	border: 2px solid #001426;
 	text-decoration: none;
+	background-color: #4608BF;
+	transition: 0.2s;
+	border: 2px solid #4608BF;
 }
 
-.button-500-outline:hover {
-	background-color: rgba(3, 226, 183, .1);
+.button-dark:hover {
+	background-color: #2E078E;
 	cursor: pointer;
-	border: 2px solid #002838;
+	border: 2px solid #2E078E;
+}
+
+.button-outline {
+	background-color: transparent;
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	letter-spacing: 1px;
+	font-size: 16px;
+	color: #4608BF;
+	font-weight: bold;
+	padding: 8px 20px 8px 20px;
+	border-radius: 32px;
+	border: 2px solid #4608BF;
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+.button-outline:hover {
+	background-color: rgba(70, 8, 191, .1);
+	cursor: pointer;
+	border: 2px solid #4608BF;
 }
