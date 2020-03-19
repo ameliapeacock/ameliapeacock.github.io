@@ -1,24 +1,55 @@
-.color-500 { color: #001426; }
-.color-bg-500 { background-color: #001426; }
-
-.color-400 { color: #264D56; }
-.color-bg-400 { background-color: #264D56; }
-
-.color-300 { color: #B3C6C2; }
-.color-bg-300 { background-color: #B3C6C2; }
-
-.color-200 { color: #C7EAE4; }
-.color--bg-200 { background-color: #C7EAE4; }
-
-.color-100 { color: #03E2B7; }
-.color-bg-100 { background-color: #03E2B7; }
-
-.color-000 { color: #fff; }
-.color-bg-000 { background-color: #fff; }
-
-.opacity-75 {
-	opacity: .75;
+.color-bg-white {
+	background-color: #FFF;
 }
-.opacity-75:hover {
-	opacity: 1;
+	.color-white {
+		color: #FFF;
+	}
+
+.color-bg-lightest-gray {
+	background-color: #F4F4F4;
+}
+	.color-lightest-gray {
+		color: #F4F4F4;
+	}
+
+.color-bg-light-gray {
+	background-color: #E2DEEE;
+}
+	.color-light-gray {
+		color: #E2DEEE;
+	}
+
+.color-bg-medium-gray {
+	background-color: #6D6970;
+}
+	.color-medium-gray {
+		color: #6D6970;
+	}
+
+.color-bg-dark-gray {
+	background-color: #15003F;
+}
+	.color-dark-gray {
+		color: #15003F;
+	}
+
+
+.color-bg-purple {
+	background-color: #4608BF;
+}
+	.color-purple {
+		color: #4608BF;
+	}
+
+.color-bg-blue {
+	background-color: #5C1AFF;
+}
+	.color-blue {
+		color: #5C1AFF;
+	}
+
+.square {
+	height: 50px;
+	width: 50px;
+	border: 1px solid gray;
 }
