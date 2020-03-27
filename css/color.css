@@ -33,6 +33,12 @@
 		color: #15003F;
 	}
 
+.color-bg-medium-purple {
+	background-color: #8264FF;
+}
+	.color-medium-purple {
+		color: #8264FF;
+	}
 
 .color-bg-purple {
 	background-color: #4608BF;
@@ -41,12 +47,6 @@
 		color: #4608BF;
 	}
 
-.color-bg-blue {
-	background-color: #5C1AFF;
-}
-	.color-blue {
-		color: #5C1AFF;
-	}
 
 .square {
 	height: 50px;
