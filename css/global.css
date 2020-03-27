@@ -65,40 +65,29 @@ nav {
 }
 
 .rectangle {
-	width: 615px;
-	height: 285px;
+	width: 200px;
+	height: 200px;
 	position: relative;
-	top: -507px;
-	left: 42px;
+	top: -505px;
+	left: 82%;
 	z-index: -2;
-	background-color: #5C1AFF;
+	background-color: #8264FF;
+	border-radius: 8px;
 }
-
-.rectangle2 {
-	width: 615px;
-	height: 285px;
-	position: relative;
-	top: -780px;
-	left: 57px;
-	z-index: -3;
-	background-color: #4608BF;
-}
-
 
 .img-preview {
-	height: 275px;
+	height: 315px;
 	position: relative;
-	top: -230px;
+	top: -220px;
 	z-index: -1;
 }
 
 .img-preview-mobile {
 	margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: -10px;
     margin-left: -20px;
     margin-right: -20px;
     border-radius: 8px 8px 0px 0px;
-    border-bottom: 6px solid #4608BF;
 }
 
 .card {
@@ -122,7 +111,7 @@ nav {
 }
 	@media screen and (max-width: 1025px) {
 		.container {
-			height: 590px;
+			height: 600px;
 		}
 	}
 
