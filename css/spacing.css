@@ -72,7 +72,7 @@
 
 .margin-auto { margin: 0 auto; }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1023px) {
 	.mobile-no-padding {
 		padding: 0 !important;
 	}
@@ -82,7 +82,7 @@
 	display: grid;
 	grid-template-columns: repeat(2, 50%);
 }
-	@media screen and (max-width: 1025px) {
+	@media screen and (max-width: 1023px) {
 		.grid-2 {
 			display: grid;
 			grid-template-columns: 100%;
@@ -93,7 +93,7 @@
 	display: grid;
 	grid-template-columns: repeat(3, 33.33%);
 }
-	@media screen and (max-width: 1025px) {
+	@media screen and (max-width: 1023px) {
 		.grid-3 {
 			display: grid;
 			grid-template-columns: 100%;
@@ -109,32 +109,44 @@
 	grid-template-columns: repeat(4, 25%);
 }
 
-@media screen and (min-width: 1025px) {
+.epsilon-gap {
+	column-gap: 24px;
+}
+
+@media screen and (min-width: 1023px) {
 .hide-desk {
 	display: none;
 	}
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1023px) {
 .hide-portable {
 	display: none;
 	}
 }
 
+.height-400 {
+	height: 400px;
+}
+
+.height-500 {
+	height: 500px;
+}
+
 .one-quarter-width { width: 25%; }
-	@media screen and (max-width: 1025px) { .one-quarter-width { width: 100%; }}
+	@media screen and (max-width: 1023px) { .one-quarter-width { width: 100%; }}
 
 .one-third-width { width: 33%; }
-	@media screen and (max-width: 1025px) { .one-third-width { width: 100%; }}
+	@media screen and (max-width: 1023px) { .one-third-width { width: 100%; }}
 
 .one-half-width { width: 50%; }
-	@media screen and (max-width: 1025px) { .one-half-width { width: 100%; }}
+	@media screen and (max-width: 1023px) { .one-half-width { width: 100%; }}
 
 .two-third-width { width: 66%; }
-	@media screen and (max-width: 1025px) { .two-third-width { width: 100%; }}
+	@media screen and (max-width: 1023px) { .two-third-width { width: 100%; }}
 
 .three-quarter-width { width: 75%; }
-	@media screen and (max-width: 1025px) { .three-quarter-width { width: 100%; }}
+	@media screen and (max-width: 1023px) { .three-quarter-width { width: 100%; }}
 
 .full-width { width: 100%; }
 

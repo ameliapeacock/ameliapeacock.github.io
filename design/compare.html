@@ -2,77 +2,112 @@
 <html>
 
 <head>
-	<title>Design - Compare</title>
+	<title>Amelia</title>
 	<link rel="stylesheet" type="text/css" href="../css/global.css">
 	<link rel="stylesheet" type="text/css" href="../css/type.css">
 	<link rel="stylesheet" type="text/css" href="../css/color.css">
 	<link rel="stylesheet" type="text/css" href="../css/links.css">
 	<link rel="stylesheet" type="text/css" href="../css/spacing.css">
-	<script type="text/javascript" src="../scripts/js.js"></script>
 	<link rel="icon" type="image/x-icon" href="http://ameliapeacock.design/images/icons/icon-design.svg" />
 	<script src="https://use.typekit.net/jls1ojl.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai+2:400,600&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body class="color-bg-500">
+<body>
 
 <header>
-	<nav class="hide-portable  zeta-padding  desk-nav">
-		<a href="http://ameliapeacock.design/" class="button-500  float-left"><img src="../images/icons/icon-home.svg" class="icon"> Home</a>
-		<a href="http://ameliapeacock.design/contact" class="button-500  float-right"><img src="../images/icons/icon-contact.svg" class="icon"> Contact</a>
-		<a href="http://ameliapeacock.design/resume" class="button-500  float-right"><img src="../images/icons/icon-resume.svg" class="icon"> Resume</a>
-		<a href="http://ameliapeacock.design/writing" class="button-500  float-right"><img src="../images/icons/icon-write.svg" class="icon"> Writing</a>
-		<a href="http://ameliapeacock.design/design" class="button-500  float-right"><img src="../images/icons/icon-design.svg" class="icon"> Design</a>
-	</nav>
-	<nav class="hide-desk  epsilon-padding">
-	  	<a class="toggle  button-500  no-underline" href="#example"><img src="../images/icons/icon-menu.svg" class="icon"> Menu</a>
-		<div class="toggle-content  delta-padding-top  delta-padding-bottom" id="example">
-		  	<a href="http://ameliapeacock.design/" class="no-underline"><button class="button-500  display-block"><img src="../images/icons/icon-home.svg" class="icon"> Home</button></a>
-			<a href="http://ameliapeacock.design/design" class="no-underline"><button class="button-500  display-block"><img src="../images/icons/icon-design.svg" class="icon"> Design</button></a>
-			<a href="http://ameliapeacock.design/writing" class="no-underline"><button class="button-500  display-block"><img src="../images/icons/icon-write.svg" class="icon"> Writing</button></a>
-			<a href="http://ameliapeacock.design/contact" class="no-underline"><button class="button-500  display-block"><img src="../images/icons/icon-contact.svg" class="icon"> Contact</button></a>
-			<a href="http://ameliapeacock.design/contact" class="no-underline"><button class="button-500  display-block"><img src="../images/icons/icon-resume.svg" class="icon"> Resume</button></a>
+	<nav>
+		<div class="stack">
+			<a href="http://ameliapeacock.design/" class="button-light  float-left"><img src="../images/icons/icon-home.svg" class="icon"></a>
+			<a href="http://ameliapeacock.design/images/resume.pdf" target="_blank" class="button-light  zeta-margin-left  float-right">Resume</a>
+			<a href="http://ameliapeacock.design/writing" class="button-light  zeta-margin-left  float-right">Writing</a>
+			<a href="http://ameliapeacock.design/design" class="button-light  zeta-margin-left  float-right">Design</a>
 		</div>
 	</nav>
 </header>
 
 <main>
-	<div class="grid-2  gamma-margin-top">
-		<div class="grid-2  epsilon-margin-top">
+	<div class="stack  delta-padding-top  gamma-padding-bottom">
+		<div class="grid-2">
 			<div>
-				<h4 class="delta  color-000  text-center">Old Compare</h4>
-				<video autoplay muted loop class="full-width  epsilon-padding"><source src="../images/live-compare.mov"></video>
+				<h1 class="beta  gamma-margin-top">Comparison Table Optimized for Mobile</h1>
+				<h2 class="delta  weight-normal  delta-margin-top  gamma-padding-bottom">I redesigned Capterra's data-heavy, dynamic comparison table to provide a faster, more readable, and more useful experience for our mobile users.</h2>
 			</div>
-			<div>
-				<h4 class="delta  color-000  text-center">New Compare</h4>
-				<img src="../images/compare-1.svg" class="full-width  epsilon-padding">
-				<img src="../images/compare-2.svg" class="full-width  epsilon-padding">
-			</div>
-		</div>
-		<div class="epsilon-margin">
-			<h1 class="beta  color-000">Comparison Table Optimized for Mobile</h1>
-			<h2 class="delta  color-300">Redesigning a data-heavy table for mobile</h2>
-			<p class="epsilon  color-300  epsilon-padding-top">One of Capterra's strongest features is its software product comparison table. However, the table, like many complicated data displays, was never optimized for mobile viewers. In fact, up until Google rolled out mobile-first-indexing, the comparison table was not even accessible for mobile users.</p>
-			<p class="epsilon  color-300  epsilon-padding-top">A partner UX designer and I were charged with rethinking our mobile compare user flow and coming up with a solution to the clunky template we had live. We started by scouring the internet to find other examples of complex data tables on mobile, watching Hotjar recordings of our users interact with the live template, and completing 10 moderated interviews of buyers in the process of comparing software.</p>
-			<p class="epsilon  color-300  epsilon-padding-top">It was simple enough to identify which data points were most important to users (pricing, reviews, features, etc.), but it was more of a challenge to find out <span class="italic">how</span> users wanted to view this information. We found that users could navigate the horizontal scroll table, but that it wasn't a pleasant experience - especially on a slow internet connection.</p>
-			<p class="epsilon  color-300  epsilon-padding-top">After ideation, I mocked up an alternative approach: breaking the table apart into discrete accordions so that users can compare products across one data point at a time. This design has the advantage of "chunking" information into smaller bits - a tactic often used in mobile design when users are on the move and less interested in seeing everything at once.</p>
-			<p class="epsilon  color-300  epsilon-padding-top">We transformed the mockup into a functioning prototype and put it in front of our users. We found that comprehension increased and conversion rate stayed the same - a win from a revenue perspective as well as a user perspective.</p>
-			
-			<h3 class="delta  color-000  text-center  beta-padding-top">Want to see more of Amelia's work?</h3>
-			<p class="epsilon  color-300  text-center  epsilon-padding-top">Check out her full design portfolio:</p>
-			<div class="text-center  gamma-padding-bottom">
-				<button class="button-500  epsilon-margin">
-					<a href="http://ameliapeacock.design/design" class="no-underline  color-100"><img src="../images/icons/icon-design.svg" class="icon"> All Design Examples</a>
-				</button>
+			<div class="gamma-padding-left  delta-margin-top  hide-portable">
+				<img src="../images/bg/home-1.svg"  class="portrait">
 			</div>
 		</div>
 	</div>
+
+	<div class="stack  color-bg-white  gamma-padding  gamma-margin-top">
+		<div class="grid-3">
+			<div class="grid-2thirds  delta-padding-right  mobile-no-padding">
+				<div class="gamma  weight-bold">The Problem</div>
+				<div class="delta  epsilon-padding-top  color-medium-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+				<div class="delta  epsilon-padding-top  color-medium-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+			</div>
+			<video autoplay muted loop class="height-400  margin-auto"><source src="../images/compare/live-compare.mov"></video>
+		</div>
+	</div>
+
+	<div class="stack  color-bg-white  gamma-padding  gamma-margin-top">
+		<div class="grid-3">
+			<div class="grid-2thirds  delta-padding-right  mobile-no-padding">
+				<div class="gamma  weight-bold">Research Findings</div>
+				<div class="delta  epsilon-padding-top  color-medium-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+				<div class="delta  epsilon-padding-top  color-medium-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+			</div>
+			<img src="../images/compare/compare-research.png"  class="full-width">
+		</div>
+	</div>
+
+	<div class="stack  color-bg-white  gamma-padding  gamma-margin-top">
+		<div class="grid-3">
+			<div class="grid-2thirds  delta-padding-right  mobile-no-padding">
+				<div class="gamma  weight-bold">Prototyping & User Testing</div>
+				<div class="delta  epsilon-padding-top  color-medium-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+				<div class="delta  epsilon-padding-top  color-medium-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+				<div class="delta  epsilon-padding-top  color-medium-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</div>
+			</div>
+			<img src="../images/compare/compare-wireframe-1.svg"  class="height-500  margin-auto">
+		</div>
+	</div>
+
+	<div class="stack  color-bg-white  gamma-padding  gamma-margin-top">
+		<div class="grid-3">
+			<div class="grid-2thirds  delta-padding-right  mobile-no-padding">
+				<div class="gamma  weight-bold">The Solution</div>
+				<div class="delta  epsilon-padding-top  color-medium-gray">One of Capterra's strongest features is its software product comparison table. However, the table, like many complicated data displays, was never optimized for mobile viewers. In fact, up until Google rolled out mobile-first-indexing, the comparison table was not even accessible for mobile users.</div>
+				<div class="delta  epsilon-padding-top  color-medium-gray">A partner UX designer and I were charged with rethinking our mobile compare user flow and coming up with a solution to the clunky template we had live. We started by scouring the internet to find other examples of complex data tables on mobile, watching Hotjar recordings of our users interact with the live template, and completing 10 moderated interviews of buyers in the process of comparing software.</div>
+				<div class="delta  epsilon-padding-top  color-medium-gray">It was simple enough to identify which data points were most important to users (pricing, reviews, features, etc.), but it was more of a challenge to find out <span class="italic">how</span> users wanted to view this information. We found that users could navigate the horizontal scroll table, but that it wasn't a pleasant experience - especially on a slow internet connection.</div>
+				<div class="delta  epsilon-padding-top  color-medium-gray">After ideation, I mocked up an alternative approach: breaking the table apart into discrete accordions so that users can compare products across one data point at a time. This design has the advantage of "chunking" information into smaller bits - a tactic often used in mobile design when users are on the move and less interested in seeing everything at once.</div>
+				<div class="delta  epsilon-padding-top  color-medium-gray">We transformed the mockup into a functioning prototype and put it in front of our users. We found that comprehension increased and conversion rate stayed the same - a win from a revenue perspective as well as a user perspective.</div>
+			</div>
+			<div>
+				<video autoplay muted loop class="height-400  margin-auto"><source src="../images/compare/new-compare.mov"></video>
+				<img src="../images/compare/compare-mock-1.svg"  class="height-500  margin-auto">
+			</div>
+		</div>
+	</div>
+
+
+	<div class="alpha-padding-top  alpha-margin-bottom">
+		<h3 class="gamma  text-center">Want to see more of Amelia's work?</h3>
+		<p class="epsilon  text-center  zeta-padding-top">Check out her writing:</p>
+		<div class="delta-padding-top  text-center">
+			<a href="http://ameliapeacock.design/writing" class="no-underline  button-dark  delta-margin-bottom">
+				Writing Examples
+			</a>
+		</div>
+	</div>
 	
-<p class="zeta  text-center  color-400  zeta-margin-bottom  thin-border">Developed with Love @ Amelia Peacock</p>
+	<p class="zeta  text-center  color-medium-gray  zeta-margin-bottom  border">Developed with Love &copy; Amelia Peacock</p>
 
 </main>
 
 </body>
 
 </html>
+			

@@ -19,7 +19,7 @@
 	cursor: pointer;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1023px) {
 	.button-light {
 		font-size: 14px;
 	}
