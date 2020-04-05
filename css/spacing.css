@@ -109,10 +109,6 @@
 	grid-template-columns: repeat(4, 25%);
 }
 
-.epsilon-gap {
-	column-gap: 24px;
-}
-
 @media screen and (min-width: 1023px) {
 .hide-desk {
 	display: none;
