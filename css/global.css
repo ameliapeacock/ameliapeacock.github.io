@@ -126,3 +126,20 @@ nav {
 	border-top: 1px solid #E2DEEE;
 	padding-top: 8px;
 }
+
+.inline-rule {
+	border-bottom: 1px solid #E2DEEE;
+	width: 100%;
+	line-height: 0.1em !important;
+	margin: 12px 0 48px; 
+}
+
+.inline-rule span { 
+    background-color: #F4F4F4; 
+    padding: 0 10px; 
+    font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-size: 16px;
+	letter-spacing: .4px;
+	font-weight: bold;
+}
