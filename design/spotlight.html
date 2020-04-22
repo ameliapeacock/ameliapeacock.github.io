@@ -8,6 +8,10 @@
 	<link rel="stylesheet" type="text/css" href="../css/color.css">
 	<link rel="stylesheet" type="text/css" href="../css/links.css">
 	<link rel="stylesheet" type="text/css" href="../css/spacing.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	<link rel="icon" type="image/x-icon" href="http://ameliapeacock.com/images/icons/icon-design.svg" />
 	<script src="https://use.typekit.net/jls1ojl.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -49,7 +53,7 @@
 				<div class="epsilon  epsilon-padding-top  color-medium-gray">“Spotlight” pages highlight product specifications, features, and reviews. Each product listed on Capterra gets a Spotlight page and the ability to add details about what their product can offer potential users. Spotlight pages allow users to do a deep dive into the products they are interested in, and to convert on products that seem like a good match. Not only are Spotlight pages important to the user, but they are important to Capterra from a revenue perspective.</div>
 				<div class="epsilon  epsilon-padding-top  color-medium-gray">While traffic to the Spotlight pages was increasing, conversion rates remained lower than on the rest of the site. Users were bouncing from these pages without finding a software that worked for them, and the portion of users who did convert did not always meet the product’s minimum requirements to be considered a qualified lead. My project was to identify how users wanted to use this product, and to implement a solution that helped connect more software buyers with the correct software providers. </div>
 			</div>
-			<img src="../images/spotlight/sl-problem.png"  class="full-width  shadow">
+			<img src="../images/spotlight/sl-problem.png" data-toggle="modal" data-target="#problem" class="full-width  hover-enlarge  myshadow">
 		</div>
 	</div>
 
@@ -62,7 +66,7 @@
 				<div class="epsilon  epsilon-padding-top  color-medium-gray">For example, while the old template design showed the starting price and trial options a product offers, that data was crammed into a sidebar that was easily missed by users. Many users expressed frustration that the screenshots took up over half of the browser on load. Additionally, the reviews were difficult to read because the text was small and spanned the full width of the page.</div>
 				<div class="epsilon  epsilon-padding-top  color-medium-gray">Beyond UI issues, the template also offered very few interactive elements for the user to customize their experience. In response to this issue, we developed the ability for users to begin a comparison with similar products within the Spotlight page. We also added a filter to the reviews section so that users can narrow down their results to reviews that are more relevant to their experience.</div>
 			</div>
-			<img src="../images/spotlight/sl-interim.svg"  class="full-width">
+			<img src="../images/spotlight/sl-interim.svg" data-toggle="modal" data-target="#features" class="full-width  hover-enlarge">
 		</div>
 	</div>
 
@@ -74,7 +78,7 @@
 				<div class="epsilon  epsilon-padding-top  color-medium-gray">After launching the new Spotlight design, we closely monitored user engagement and performed a series of user surveys. While conversions improved and users were more often successfully finding software that met their needs, the redesign was not perfect. Users consistently expressed frustration over how much more overwhelming the page seemed with the additional features. They wanted a page that put these features into a more easily digestible layout.</div>
 				<div class="epsilon  epsilon-padding-top  color-medium-gray">In the spirit of iteration, I jumped back into the project to apply the new Capterra design system to the template, and to hopefully solve some of these user issues. This second round of iteration focused primarily on improving the page’s UI: adding color, a clearer hierarchy, grouping like content together more to aid in scanning, and reducing the footprint of less-helpful features.</div>
 			</div>
-			<img src="../images/spotlight/sl-research.png"  class="full-width  shadow">
+			<img src="../images/spotlight/sl-research.png" data-toggle="modal" data-target="#findings" class="full-width  hover-enlarge  myshadow">
 		</div>
 	</div>
 
@@ -90,8 +94,8 @@
 				<div class="epsilon  epsilon-padding-top  color-medium-gray">As the Spotlight page continues to evolve, I know there is a lot more work to be done to both improve business performance and user experience. The next massive undertaking for this product will be to optimize the mobile experience to give the user a more catered view for on-the-go research.</div>
 			</div>
 			<div>
-				<video autoplay muted loop class="full-width  shadow"><source src="../images/spotlight/sl-solution.mov"></video>
-				<img src="../images/spotlight/sl-solution-1.svg"  class="full-width">
+				<video autoplay muted loop data-toggle="modal" data-target="#sol-1" class="full-width  hover-enlarge  myshadow"><source src="../images/spotlight/sl-solution.mov"></video>
+				<img src="../images/spotlight/sl-solution-1.svg" data-toggle="modal" data-target="#sol-2" class="full-width  hover-enlarge">
 			</div>
 		</div>
 	</div>
@@ -117,7 +121,74 @@
 		</div>
 	</div>
 	
-	<p class="zeta  text-center  color-medium-gray  zeta-margin-bottom  border">Developed with Love &copy; Amelia Peacock</p>
+	<p class="zeta  text-center  color-medium-gray  zeta-margin-bottom  footer-border">Developed with Love &copy; Amelia Peacock</p>
+
+<!-- MODALS -->
+
+	<div class="modal" id="problem" style="overflow-y: auto">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<a class="float-right" data-dismiss="modal">
+						<img src="../images/icons/icon-close.svg" class="icon-clsoe">
+					</a>
+					<img src="../images/spotlight/sl-problem.png" class="full-width">
+				</div><!--modal body-->
+			</div><!--modal content-->
+		</div><!--modal dialog-->
+	</div><!--modal-->
+
+	<div class="modal" id="features" style="overflow-y: auto">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<a class="float-right" data-dismiss="modal">
+						<img src="../images/icons/icon-close.svg" class="icon-clsoe">
+					</a>
+					<img src="../images/spotlight/sl-interim.svg" class="full-width">
+				</div><!--modal body-->
+			</div><!--modal content-->
+		</div><!--modal dialog-->
+	</div><!--modal-->
+
+	<div class="modal" id="findings" style="overflow-y: auto">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<a class="float-right" data-dismiss="modal">
+						<img src="../images/icons/icon-close.svg" class="icon-clsoe">
+					</a>
+					<img src="../images/spotlight/sl-research.png" class="full-width">
+				</div><!--modal body-->
+			</div><!--modal content-->
+		</div><!--modal dialog-->
+	</div><!--modal-->
+
+	<div class="modal" id="sol-1" style="overflow-y: auto">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<a class="float-right" data-dismiss="modal">
+						<img src="../images/icons/icon-close.svg" class="icon-clsoe">
+					</a>
+					<video autoplay muted loop class="full-width"><source src="../images/spotlight/sl-solution.mov"></video>
+				</div><!--modal body-->
+			</div><!--modal content-->
+		</div><!--modal dialog-->
+	</div><!--modal-->
+
+	<div class="modal" id="sol-2" style="overflow-y: auto">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<a class="float-right" data-dismiss="modal">
+						<img src="../images/icons/icon-close.svg" class="icon-clsoe">
+					</a>
+					<img src="../images/spotlight/sl-solution-1.svg" class="full-width">
+				</div><!--modal body-->
+			</div><!--modal content-->
+		</div><!--modal dialog-->
+	</div><!--modal-->
 
 </main>
 
