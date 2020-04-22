@@ -8,6 +8,10 @@
 	<link rel="stylesheet" type="text/css" href="../css/color.css">
 	<link rel="stylesheet" type="text/css" href="../css/links.css">
 	<link rel="stylesheet" type="text/css" href="../css/spacing.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	<link rel="icon" type="image/x-icon" href="http://ameliapeacock.com/images/icons/icon-design.svg" />
 	<script src="https://use.typekit.net/jls1ojl.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -50,7 +54,7 @@
 				<div class="epsilon  epsilon-padding-top  color-medium-gray">However, changes to Google’s algorithm have eaten into the quality traffic coming through the site and Capterra has begun to experience a steady decline in conversions. Leadership charged the product team with getting our conversion rates on the Directory Page back to, or above, where they were before the algorithm changes, even if it means drastic changes to functionality, look, and feel.</div>
 				<div class="epsilon  epsilon-padding-top  color-medium-gray">The other major challenge with this template is that while conversions, up until recently, have been strong, return visitation and brand recognition have remained low. Users consistently saw Capterra as a “pass through” site, and not a place to find valuable software buying resources and guidance. One of the major success metrics for this project is identifying exactly why users are not returning to this page, and then implementing a design that will increase return visitation.</div>
 			</div>
-			<img src="../images/dir/dir-problem.svg"  class="full-width">
+			<img src="../images/dir/dir-problem.svg" data-toggle="modal" data-target="#problem" class="full-width  hover-enlarge">
 		</div>
 	</div>
 
@@ -63,7 +67,7 @@
 				<div class="epsilon  epsilon-padding-top  color-medium-gray">The cards that featured products also didn’t prioritize the information users wanted to see. In fact, users were consistently frustrated that the cards only displayed a five star review rating and a long description written by the product vendor (these descriptions often used “marketing speak”). We found that users wanted much more information to be immediately visible on the cards, so that they wouldn’t need to open all the products’ websites in new tabs and compare across web pages.</div>
 				<div class="epsilon  epsilon-padding-top  color-medium-gray">Lastly we found that many users were landing on Capterra from Google using a keyword that didn’t exactly match what the user really wanted to see. For example, they would search for “Recruitment Software” and land on Capterra’s “Human Resources Software” directory. Users needed to know both how to get to the appropriate directory, and also what the description for each directory is, so they could know they are in the wrong place to begin with.</div>
 			</div>
-			<img src="../images/dir/dir-research.png"  class="full-width">
+			<img src="../images/dir/dir-research.png" data-toggle="modal" data-target="#research" class="full-width  hover-enlarge">
 		</div>
 	</div>
 
@@ -78,8 +82,8 @@
 				<div class="epsilon  epsilon-padding-top  color-medium-gray">User testing was completed on all the major pain points that arose from our research. For example, we found that providing links to “related directories” was incredibly successful in reorienting users to appropriate directories. We also found that including expert written content on the general state of each directory (i.e. Average Pricing for Human Resources Software) helped users start to contextualize the product information.</div>
 			</div>
 			<div>
-				<video autoplay muted loop class="full-width  shadow"><source src="../images/dir/dir-proto.mov"></video>
-				<img src="../images/dir/dir-solution-1.svg"  class="full-width  hide-portable">
+				<video autoplay muted loop  data-toggle="modal" data-target="#proto-1" class="full-width  myshadow  hover-enlarge"><source src="../images/dir/dir-proto.mov"></video>
+				<img src="../images/dir/dir-solution-1.svg" data-toggle="modal" data-target="#proto-2" class="full-width  hover-enlarge">
 			</div>
 		</div>
 	</div>
@@ -96,7 +100,7 @@
 				<div class="epsilon  epsilon-padding-top  color-medium-gray">This massive project is slated for development in Q2 of 2020.</div>
 			</div>
 			<div>
-				<img src="../images/dir/dir-solution.svg"  class="full-width  shadow">
+				<img src="../images/dir/dir-solution.svg" data-toggle="modal" data-target="#solution" class="full-width  hover-enlarge  myshadow">
 			</div>
 		</div>
 	</div>
@@ -122,7 +126,74 @@
 		</div>
 	</div>
 	
-	<p class="zeta  text-center  color-medium-gray  zeta-margin-bottom  border">Developed with Love &copy; Amelia Peacock</p>
+	<p class="zeta  text-center  color-medium-gray  zeta-margin-bottom  footer-border">Developed with Love &copy; Amelia Peacock</p>
+
+<!-- MODALS -->
+
+	<div class="modal" id="problem" style="overflow-y: auto">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<a class="float-right" data-dismiss="modal">
+						<img src="../images/icons/icon-close.svg" class="icon-clsoe">
+					</a>
+					<img src="../images/dir/dir-problem.svg" class="full-width">
+				</div><!--modal body-->
+			</div><!--modal content-->
+		</div><!--modal dialog-->
+	</div><!--modal-->
+
+	<div class="modal" id="research" style="overflow-y: auto">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<a class="float-right" data-dismiss="modal">
+						<img src="../images/icons/icon-close.svg" class="icon-clsoe">
+					</a>
+					<img src="../images/dir/dir-research.png" class="full-width">
+				</div><!--modal body-->
+			</div><!--modal content-->
+		</div><!--modal dialog-->
+	</div><!--modal-->
+
+	<div class="modal" id="proto-1" style="overflow-y: auto">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<a class="float-right" data-dismiss="modal">
+						<img src="../images/icons/icon-close.svg" class="icon-clsoe">
+					</a>
+					<video autoplay muted loop class="full-width"><source src="../images/dir/dir-proto.mov"></video>
+				</div><!--modal body-->
+			</div><!--modal content-->
+		</div><!--modal dialog-->
+	</div><!--modal-->
+
+	<div class="modal" id="proto-2" style="overflow-y: auto">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<a class="float-right" data-dismiss="modal">
+						<img src="../images/icons/icon-close.svg" class="icon-clsoe">
+					</a>
+					<img src="../images/dir/dir-solution-1.svg" class="full-width">
+				</div><!--modal body-->
+			</div><!--modal content-->
+		</div><!--modal dialog-->
+	</div><!--modal-->
+
+	<div class="modal" id="solution" style="overflow-y: auto">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<a class="float-right" data-dismiss="modal">
+						<img src="../images/icons/icon-close.svg" class="icon-clsoe">
+					</a>
+					<img src="../images/dir/dir-solution.svg" class="full-width">
+				</div><!--modal body-->
+			</div><!--modal content-->
+		</div><!--modal dialog-->
+	</div><!--modal-->
 
 </main>
 

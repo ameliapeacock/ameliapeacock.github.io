@@ -4,18 +4,18 @@
 	font-style: normal;
 	letter-spacing: 1px;
 	font-size: 16px;
-	color: #4608BF;
+	color: #4608BF  !important;
 	font-weight: bold;
 	padding: 8px 20px 8px 20px;
 	border-radius: 32px;
-	text-decoration: none;
+	text-decoration: none !important;
 	background-color: #E2DEEE;
 	transition: 0.2s;
 	border: none;
 }
 
 .button-light:hover {
-	background-color: rgba(70, 8, 191, .2);
+	background-color: rgba(70, 8, 191, .2) !important;
 	cursor: pointer;
 }
 
@@ -31,20 +31,20 @@
 	font-style: normal;
 	letter-spacing: 1px;
 	font-size: 16px;
-	color: #F4F4F4;
+	color: #F4F4F4 !important;
 	font-weight: bold;
 	padding: 8px 20px 8px 20px;
 	border-radius: 32px;
-	text-decoration: none;
-	background-color: #4608BF;
+	text-decoration: none !important;
+	background-color: #4608BF !important;
 	transition: 0.2s;
-	border: 2px solid #4608BF;
+	border: 2px solid #4608BF !important;
 }
 
 .button-dark:hover {
-	background-color: #2E078E;
+	background-color: #2E078E !important;
 	cursor: pointer;
-	border: 2px solid #2E078E;
+	border: 2px solid #2E078E !important;
 }
 
 .button-outline {
@@ -53,17 +53,17 @@
 	font-style: normal;
 	letter-spacing: 1px;
 	font-size: 16px;
-	color: #4608BF;
+	color: #4608BF !important;
 	font-weight: bold;
 	padding: 8px 20px 8px 20px;
 	border-radius: 32px;
-	border: 2px solid #4608BF;
-	text-decoration: none;
+	border: 2px solid #4608BF !important;
+	text-decoration: none !important;
 	transition: 0.2s;
 }
 
 .button-outline:hover {
-	background-color: rgba(70, 8, 191, .1);
+	background-color: rgba(70, 8, 191, .1) !important;
 	cursor: pointer;
-	border: 2px solid #4608BF;
+	border: 2px solid #4608BF !important;
 }

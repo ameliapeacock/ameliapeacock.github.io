@@ -1,21 +1,21 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
-	color: #1D0235;
-	background-color: #F4F4F4;
+	color: #1D0235 !important;
+	background-color: #F4F4F4 !important;
 }
 
 header {
-	box-shadow: 0px 0px 15px rgba(109, 105, 112, 0.5);
+	box-shadow: 0px 0px 15px rgba(109, 105, 112, 0.5) !important;
 }
 
 a {
-	color: #4608BF;
-	font-weight: 600;
+	color: #4608BF !important;
+	font-weight: 600 !important;
 }
 
 li {
-	margin: 10px 0 10px 0;
+	margin: 10px 0 10px 0 !important;
 }
 
 nav {
@@ -36,8 +36,8 @@ nav {
 		}
 	}
 
-.shadow {
-	box-shadow: 0px 0px 10px rgba(109, 105, 112, 0.2);
+.myshadow {
+	box-shadow: 0px 0px 10px rgba(109, 105, 112, 0.2) !important;
 }
 
 .icon {
@@ -48,6 +48,14 @@ nav {
 .icon-large {
 	height: 16px;
 	width: 16px;
+}
+
+.icon-clsoe {
+	height: 24px;
+	widows: 24px;
+}
+.icon-clsoe:hover {
+	cursor: pointer;
 }
 
 .portrait {
@@ -78,6 +86,20 @@ nav {
     margin-left: -20px;
     margin-right: -20px;
     border-radius: 8px 8px 0px 0px;
+}
+
+.hover-enlarge:hover {
+	cursor: zoom-in;
+}
+
+.hover-reduce:hover {
+	cursor: zoom-out;
+}
+
+@media (min-width: 576px){
+	.modal-dialog {
+		max-width: 800px !important;
+	}
 }
 
 .card {
@@ -122,7 +144,7 @@ nav {
     transform: scale(1.02);
 }
 
-.border {
+.footer-border {
 	border-top: 1px solid #E2DEEE;
 	padding-top: 8px;
 }

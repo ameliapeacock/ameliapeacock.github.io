@@ -8,6 +8,10 @@
 	<link rel="stylesheet" type="text/css" href="../css/color.css">
 	<link rel="stylesheet" type="text/css" href="../css/links.css">
 	<link rel="stylesheet" type="text/css" href="../css/spacing.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	<link rel="icon" type="image/x-icon" href="http://ameliapeacock.com/images/icons/icon-design.svg" />
 	<script src="https://use.typekit.net/jls1ojl.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -50,7 +54,7 @@
 				<div class="epsilon  epsilon-padding-top  color-medium-gray">The most glaring of these issues is, in my opinion, the character creation process. In order to play D&D, each player needs to first create a fantasy character loaded with stats, weapons, physical characteristics, personality traits, inventory, and more. All of this detailed information has traditionally been captured on a complicated, difficult to read “Character Sheet” in an hours long meeting led by the most experienced player in the room who reads out of a book to guide their fellow players. The character creation process is esoteric and uninviting to inexperienced players.</div>
 				<div class="epsilon  epsilon-padding-top  color-medium-gray">I set out to not only create a product that could speed up this experience, but also turn character creation into a game in its own right. What if creating a character was not a prerequisite to playing Dungeons & Dragons, but a game that people would want to play no matter the occasion?</div>
 			</div>
-			<img src="../images/dnd/5e-sheet.jpg"  class="full-width  shadow">
+			<img src="../images/dnd/5e-sheet.jpg" data-toggle="modal" data-target="#problem" class="full-width  myshadow  hover-enlarge">
 		</div>
 	</div>
 
@@ -63,7 +67,7 @@
 				<div class="epsilon  epsilon-padding-top  color-medium-gray">I compiled all the interview results into bite-sized sentiments and sorted them by theme. I found that the largest areas for improvement requested by players are (1) players want to know how the rest of the group is making choices, (2) there is too much content to read through to get the process done quickly, and (3) the mechanics of the game are confusing to new players and it causes character creation to feel opaque.</div>
 				<div class="epsilon  epsilon-padding-top  color-medium-gray">One of my biggest concerns was that players would be resistant to a digital solution; because D&D is a foundational tabletop game, some players hold the non-digital experience as sacrosanct. However, I found that a number of players already incorporate digital products into character creation, though none allowed the user to feel like they were playing a game rather than using a tool.</div>
 			</div>
-			<img src="../images/dnd/dnd-interview.svg"  class="full-width">
+			<img src="../images/dnd/dnd-interview.svg" data-toggle="modal" data-target="#interview" class="full-width  hover-enlarge">
 		</div>
 	</div>
 
@@ -75,7 +79,7 @@
 				<div class="epsilon  epsilon-padding-top  color-medium-gray">Three personas emerged from my interviews. The first is players who like to lead the group in character creation. In D&D terms, these people are called “Dungeon Masters”. Their goals are distinct from players; Dungeon Masters want to successfully get all the players in the room to correctly fill in all their character details and be ready to play the game.</div>
 				<div class="epsilon  epsilon-padding-top  color-medium-gray">The other two personas refer to the main two types of players: Researchers and Discoverers. Researchers like to read everything to do with every option they are presented with. They want to make the most informed choice they possibly can. Discoverers prefer to “go with their gut” and describe a preference to the Dungeon Master and follow their recommendation. They want to be guided through the experience and trust an expert to narrow down their choices.</div>
 			</div>
-			<img src="../images/dnd/dnd-persona.svg"  class="full-width">
+			<img src="../images/dnd/dnd-persona.svg" data-toggle="modal" data-target="#persona" class="full-width  hover-enlarge">
 		</div>
 	</div>
 
@@ -87,7 +91,7 @@
 				<div class="epsilon  epsilon-padding-top  color-medium-gray">I identified my main persona (the Discoverer) and plotted her positive and negative emotions over the course of creating a character. I found that the experience has a “whiplashing” effect on players; every new step is daunting and slightly frustrating, but becomes interesting and fun once players get used to the idea. However, just when users are comfortable with a step, it’s time to move on to the next one.</div>
 				<div class="epsilon  epsilon-padding-top  color-medium-gray">The main source of negative emotions in the user journey came from the player’s lack of understanding and information going into each step. Because there is so much history and reading associated with each of these steps, players quickly become overwhelmed by the experience and start to lose hope that the character they create truly represents their intentions. Positive emotions came from the excitement of learning something new and seeing a world of possibilities laid before them.</div>
 			</div>
-			<img src="../images/dnd/dnd-journey.svg"  class="full-width">
+			<img src="../images/dnd/dnd-journey.svg" data-toggle="modal" data-target="#journey" class="full-width  hover-enlarge">
 		</div>
 	</div>
 
@@ -99,7 +103,7 @@
 				<div class="epsilon  epsilon-padding-top  color-medium-gray">Character creation needs to happen linearly (i.e. players need to go down a set path and complete all the choices they are presented with in order to be done with their character). This means the product inherently needs to act more like a massive, multi-step form than it does a website with many distinct entry/exit points. However, the order in which these tasks take place is up for debate.</div>
 				<div class="epsilon  epsilon-padding-top  color-medium-gray">In my interviews, I found that the default order presented by the official game is not ideal for new players. It asks players to provide the more flavorful information (like name, age, appearance, etc) right at the beginning of the experience before many new players have even begun to figure out how the game works. In reworking the user flow, I focused on putting the most important and impactful choices at the beginning of the experience. This lets players make foundational choices first before adding superfluous details. For example, it’s hard to pick a name for a fantasy character before first knowing that the character is a Dwarf.</div>
 			</div>
-			<img src="../images/dnd/dnd-flow.svg"  class="full-width">
+			<img src="../images/dnd/dnd-flow.svg" data-toggle="modal" data-target="#flow" class="full-width  hover-enlarge">
 		</div>
 	</div>
 
@@ -114,7 +118,7 @@
 				<div class="epsilon  epsilon-padding-top  color-medium-gray">I am wireframing the main user flow with plans to present a working (though basic) prototype to users to test flow, comprehension, time to completion, hierarchy, and onboarding. I hope to continue iterating on this idea and begin working on higher fidelity aspects of the product in the future.</div>
 			</div>
 			<div>
-				<video autoplay muted loop class="full-width"><source src="../images/dnd/dnd.mov"></video>
+				<video autoplay muted loop data-toggle="modal" data-target="#solution" class="full-width  hover-enlarge"><source src="../images/dnd/dnd.mov"></video>
 			</div>
 		</div>
 	</div>
@@ -140,7 +144,87 @@
 		</div>
 	</div>
 	
-	<p class="zeta  text-center  color-medium-gray  zeta-margin-bottom  border">Developed with Love &copy; Amelia Peacock</p>
+	<p class="zeta  text-center  color-medium-gray  zeta-margin-bottom  footer-border">Developed with Love &copy; Amelia Peacock</p>
+
+<!-- MODALS -->
+
+	<div class="modal" id="problem" style="overflow-y: auto">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<a class="float-right" data-dismiss="modal">
+						<img src="../images/icons/icon-close.svg" class="icon-clsoe">
+					</a>
+					<img src="../images/dnd/5e-sheet.jpg" class="full-width">
+				</div><!--modal body-->
+			</div><!--modal content-->
+		</div><!--modal dialog-->
+	</div><!--modal-->
+
+	<div class="modal" id="interview" style="overflow-y: auto">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<a class="float-right" data-dismiss="modal">
+						<img src="../images/icons/icon-close.svg" class="icon-clsoe">
+					</a>
+					<img src="../images/dnd/dnd-interview.svg" class="full-width">
+				</div><!--modal body-->
+			</div><!--modal content-->
+		</div><!--modal dialog-->
+	</div><!--modal-->
+
+	<div class="modal" id="persona" style="overflow-y: auto">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<a class="float-right" data-dismiss="modal">
+						<img src="../images/icons/icon-close.svg" class="icon-clsoe">
+					</a>
+					<img src="../images/dnd/dnd-persona.svg" class="full-width">
+				</div><!--modal body-->
+			</div><!--modal content-->
+		</div><!--modal dialog-->
+	</div><!--modal-->
+
+	<div class="modal" id="journey" style="overflow-y: auto">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<a class="float-right" data-dismiss="modal">
+						<img src="../images/icons/icon-close.svg" class="icon-clsoe">
+					</a>
+					<img src="../images/dnd/dnd-journey.svg" class="full-width">
+				</div><!--modal body-->
+			</div><!--modal content-->
+		</div><!--modal dialog-->
+	</div><!--modal-->
+
+	<div class="modal" id="flow" style="overflow-y: auto">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<a class="float-right" data-dismiss="modal">
+						<img src="../images/icons/icon-close.svg" class="icon-clsoe">
+					</a>
+					<img src="../images/dnd/dnd-flow.svg" class="full-width">
+				</div><!--modal body-->
+			</div><!--modal content-->
+		</div><!--modal dialog-->
+	</div><!--modal-->
+
+	<div class="modal" id="solution" style="overflow-y: auto">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<a class="float-right" data-dismiss="modal">
+						<img src="../images/icons/icon-close.svg" class="icon-clsoe">
+					</a>
+					<video autoplay muted loop class="full-width"><source src="../images/dnd/dnd.mov"></video>
+				</div><!--modal body-->
+			</div><!--modal content-->
+		</div><!--modal dialog-->
+	</div><!--modal-->
 
 </main>
 
