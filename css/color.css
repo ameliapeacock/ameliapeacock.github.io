@@ -46,11 +46,3 @@
 	.color-green {
 		color: #11aa00;
 	}
-
-.opacity-hover {
-	opacity: 40%;
-}
-
-.opacity-hover:hover {
-	opacity: 100%;
-}

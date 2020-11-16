@@ -108,26 +108,23 @@
 	display: grid;
 	grid-template-columns: repeat(4, 25%);
 }
+	@media screen and (max-width: 1023px) {
+		.grid-4 {
+			display: grid;
+			grid-template-columns: 100%;
+		}
+	}
 
 @media screen and (min-width: 1023px) {
-.hide-desk {
-	display: none;
-	}
-}
+.hide-desk { display: none; }}
 
 @media screen and (max-width: 1023px) {
-.hide-portable {
-	display: none;
-	}
-}
+.hide-portable { display: none; }}
 
-.height-400 {
-	height: 400px;
-}
 
-.height-500 {
-	height: 500px;
-}
+.height-400 { height: 400px; }
+
+.height-500 { height: 500px; }
 
 .one-quarter-width { width: 25%; }
 	@media screen and (max-width: 1023px) { .one-quarter-width { width: 100%; }}
@@ -150,18 +147,20 @@
 
 .display-inline-block { display: inline-block; }
 
-.flex-center {
-	display: flex;
-	align-items: flex-start;
-}
-.flex-center .selected {
-    align-self: center;
-}
-
-@media screen and (max-width: 1023px) { .flex-center { display: inline-block; }}
-
 .float-left { float: left; }
 
 .float-right { float: right; }
 
 .clear { clear: both; }
+
+.overflow-hidden { overflow: hidden; }
+
+.flex-center {
+	display: flex;
+	align-items: flex-start;
+}
+
+.flex-center .selected {
+    align-self: center;
+}
+	@media screen and (max-width: 1023px) { .flex-center { display: inline-block; }}

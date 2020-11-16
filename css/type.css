@@ -36,6 +36,11 @@ body {
 	line-height: 26px;
 }
 
+.zeta {
+	font-style: normal;
+	font-size: 14px;
+}
+
 .weight-bold { font-weight: 600 !important; }
 
 .weight-normal { font-weight: 400 !important; }
