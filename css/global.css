@@ -1,27 +1,99 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-	color: #1D0235 !important;
-	background-color: #F4F4F4 !important;
+	color: #000033 !important;
 }
 
-header {
-	box-shadow: 0px 0px 15px rgba(109, 105, 112, 0.5) !important;
+:root {
+    --mainColorBlue: #0066ff;
+    --mainColorRed: #ff0066;
+    --mainColorOrange: #ff9d00;
+    --mainColorGreen: #11aa00;
 }
 
-a {
-	color: #4608BF !important;
-	font-weight: 600 !important;
+.a-blue {
+	background: linear-gradient(to bottom, var(--mainColorBlue) 0%, var(--mainColorBlue) 100%);
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-size: 3px 3px;
+	color: #000033;
+	text-decoration: none;
+	padding-bottom: 3px;
+	font-weight: 600;
+}
+
+.a-blue:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%230066ff' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
+
+
+.a-red {
+	background: linear-gradient(to bottom, var(--mainColorRed) 0%, var(--mainColorRed) 100%);
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-size: 3px 3px;
+	color: #000033;
+	text-decoration: none;
+	padding-bottom: 3px;
+	font-weight: 600;
+}
+
+.a-red:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff0066' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
+
+.a-orange {
+	background: linear-gradient(to bottom, var(--mainColorOrange) 0%, var(--mainColorOrange) 100%);
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-size: 3px 3px;
+	color: #000033;
+	text-decoration: none;
+	padding-bottom: 3px;
+	font-weight: 600;
+}
+
+.a-orange:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9d00' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
+
+.a-green {
+	background: linear-gradient(to bottom, var(--mainColorGreen) 0%, var(--mainColorGreen) 100%);
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-size: 3px 3px;
+	color: #000033;
+	text-decoration: none;
+	padding-bottom: 3px;
+	font-weight: 600;
+}
+
+.a-green:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%2311aa00' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
 }
 
 li {
 	margin: 10px 0 10px 0 !important;
-}
-
-nav {
-	height: 54px;
-	padding-top: 8px;
-	padding-bottom: 8px;
 }
 
 .stack {
@@ -40,29 +112,29 @@ nav {
 	box-shadow: 0px 0px 10px rgba(109, 105, 112, 0.2) !important;
 }
 
-.icon {
-	height: 12px;
-	width: 12px;
-}
-
-.icon-large {
+.icon-sm {
 	height: 16px;
 	width: 16px;
 }
 
-.icon-clsoe {
+.icon-md {
 	height: 24px;
 	widows: 24px;
 }
-.icon-clsoe:hover {
+.icon-md:hover {
 	cursor: pointer;
+}
+
+.icon-lg {
+	height: 32px;
+	width: 32px;
 }
 
 .portrait {
 	max-height: 500px;
 }
 
-.rectangle {
+/*.rectangle {
 	width: 200px;
 	height: 200px;
 	position: relative;
@@ -71,7 +143,7 @@ nav {
 	z-index: -2;
 	background-color: #8264FF;
 	border-radius: 8px;
-}
+}*/
 
 .img-preview {
 	height: 315px;
@@ -103,30 +175,34 @@ nav {
 }
 
 .card {
-	box-shadow: 0px 0px 15px rgba(109, 105, 112, 0.5);
-	z-index: 2;
-	border-radius: 10px;
-	background-color: #fff;
-	width: 70%;
-	float: right;
+	width: 98%;
 	padding: 32px;
+	margin: 1%;
 }
 	@media screen and (max-width: 1023px) {
-	.card {
+	.card-half {
 		width: 100%;
 		padding: 20px;
-		margin-bottom: 24px;
+		margin: 24px 0px 0px 0px;
 		}
 	}
 
-.container {
-	height: 465px;
+.card-half {
+	width: 48%;
+	padding: 32px;
+	margin: 1%;
 }
 	@media screen and (max-width: 1023px) {
-		.container {
-			height: auto;
+	.card-half {
+		width: 100%;
+		padding: 20px;
+		margin: 0px 0px 24px 0px;
 		}
 	}
+
+.border-top {
+	border-top: 1px solid #E2DEEE;
+}
 
 .hvr-grow {
     display: inline-block;
@@ -144,28 +220,15 @@ nav {
     transform: scale(1.02);
 }
 
-.footer-border {
-	border-top: 1px solid #E2DEEE;
-	padding-top: 8px;
+.overflow-hidden {
+	overflow: hidden;
 }
 
-.inline-rule {
-	border-bottom: 1px solid #E2DEEE;
-	width: 100%;
-	line-height: 0.1em !important;
-	margin: 12px 0 48px; 
+.intro {
+	padding: 175px 40px 150px 40px;
 }
-
-.inline-rule span { 
-    background-color: #F4F4F4; 
-    padding: 0 10px; 
-    font-family: proxima-nova, sans-serif;
-	font-style: normal;
-	font-size: 16px;
-	letter-spacing: .4px;
-	font-weight: bold;
-}
-
-.border {
-	border: 1px solid #E2DEEE;
-}
+@media screen and (max-width: 1023px) {
+	.intro {
+		padding: 40px 12px 20px 12px;
+		}
+	}
