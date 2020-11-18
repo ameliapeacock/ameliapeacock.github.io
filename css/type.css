@@ -1,12 +1,13 @@
 
 body {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Nunito', sans-serif !important;
 }
 
 .alpha {
 	font-style: normal;
 	font-size: 50px;
 	font-weight: 600;
+	line-height: 64px;
 }
 	@media screen and (max-width: 1023px) { .alpha { font-size: 40px; }}
 
@@ -14,6 +15,7 @@ body {
 	font-style: normal;
 	font-size: 40px;
 	font-weight: 600;
+	line-height: 52px;
 }
 	@media screen and (max-width: 1023px) { .beta { font-size: 30px; }}
 
@@ -21,12 +23,14 @@ body {
 	font-style: normal;
 	font-size: 30px;
 	font-weight: 600;
+	line-height: 40px;
 }
 	@media screen and (max-width: 1023px) { .gamma { font-size: 24px; line-height: 32px; }}
 
 .delta {
 	font-style: normal;
 	font-size: 24px;
+	line-height: 30px;
 }
 	@media screen and (max-width: 1023px) { .delta { font-size: 20px; }}
 
@@ -39,6 +43,7 @@ body {
 .zeta {
 	font-style: normal;
 	font-size: 14px;
+	line-height: 22px;
 }
 
 .weight-bold { font-weight: 600 !important; }
