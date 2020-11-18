@@ -20,7 +20,7 @@ body {
 	background-position: 0 100%;
 	background-repeat: repeat-x;
 	background-size: 3px 3px;
-	color: #000033;
+	color: #000033 !important;
 	text-decoration: none;
 	padding-bottom: 3px;
 	font-weight: 600;
@@ -39,7 +39,7 @@ body {
 	background-position: 0 100%;
 	background-repeat: repeat-x;
 	background-size: 3px 3px;
-	color: #000033;
+	color: #000033 !important;
 	text-decoration: none;
 	padding-bottom: 3px;
 	font-weight: 600;
@@ -57,7 +57,7 @@ body {
 	background-position: 0 100%;
 	background-repeat: repeat-x;
 	background-size: 3px 3px;
-	color: #000033;
+	color: #000033 !important;
 	text-decoration: none;
 	padding-bottom: 3px;
 	font-weight: 600;
@@ -75,7 +75,7 @@ body {
 	background-position: 0 100%;
 	background-repeat: repeat-x;
 	background-size: 3px 3px;
-	color: #000033;
+	color: #000033 !important;
 	text-decoration: none;
 	padding-bottom: 3px;
 	font-weight: 600;
@@ -89,7 +89,7 @@ body {
 }
 
 li {
-	margin: 10px 0 10px 0 !important;
+	margin: 4px 0 4px 0 !important;
 }
 
 .stack {
@@ -104,13 +104,25 @@ li {
 		}
 	}
 
+.stack-large {
+	width: 86%;
+	margin: auto;
+}
+	@media screen and (max-width: 1023px) {
+		.stack-large {
+			padding-left: 2%;
+			padding-right: 2%;
+			width: 100%;
+		}
+	}
+
 .myshadow {
 	box-shadow: 0px 0px 10px rgba(109, 105, 112, 0.2) !important;
 }
 
 .icon-sm {
-	height: 16px;
-	width: 16px;
+	height: 14px;
+	width: 14px;
 }
 
 .icon-md {
@@ -206,3 +218,10 @@ li {
 		padding: 40px 12px 20px 12px;
 		}
 	}
+
+@media screen and (max-width: 1023px) {
+	.mobile-small-padding {
+		padding: 40px 12px 40px 12px !important;
+	}
+}
+

@@ -1,13 +1,13 @@
-.alpha-padding { padding: 150px; }
-.alpha-padding-top { padding-top: 150px; }
-.alpha-padding-bottom { padding-bottom: 150px; }
-.alpha-padding-right { padding-right: 150px; }
-.alpha-padding-left { padding-left: 150px; }
-.alpha-margin { margin: 150px; }
-.alpha-margin-top { margin-top: 150px; }
-.alpha-margin-bottom { margin-bottom: 150px; }
-.alpha-margin-right { margin-right: 150px; }
-.alpha-margin-left { margin-left: 150px; }
+.alpha-padding { padding: 130px; }
+.alpha-padding-top { padding-top: 130px; }
+.alpha-padding-bottom { padding-bottom: 130px; }
+.alpha-padding-right { padding-right: 130px; }
+.alpha-padding-left { padding-left: 130px; }
+.alpha-margin { margin: 130px; }
+.alpha-margin-top { margin-top: 130px; }
+.alpha-margin-bottom { margin-bottom: 130px; }
+.alpha-margin-right { margin-right: 130px; }
+.alpha-margin-left { margin-left: 130px; }
 
 
 .beta-padding { padding: 40px; }
@@ -68,6 +68,18 @@
 .zeta-margin-bottom { margin-bottom: 8px; }
 .zeta-margin-right { margin-right: 8px; }
 .zeta-margin-left { margin-left: 8px; }
+
+
+.no-padding { padding: 0px; }
+.no-padding-top { padding-top: 0px; }
+.no-padding-bottom { padding-bottom: 0px; }
+.no-padding-right { padding-right: 0px; }
+.no-padding-left { padding-left: 0px; }
+.no-margin { margin: 0px; }
+.no-margin-top { margin-top: 0px; }
+.no-margin-bottom { margin-bottom: 0px; }
+.no-margin-right { margin-right: 0px; }
+.no-margin-left { margin-left: 0px; }
 
 
 .margin-auto { margin: 0 auto; }
@@ -154,6 +166,8 @@
 .clear { clear: both; }
 
 .overflow-hidden { overflow: hidden; }
+
+.align-baseline { vertical-align: baseline; }
 
 .flex-center {
 	display: flex;
