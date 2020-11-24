@@ -8,6 +8,16 @@ body {
 	color: #000033 !important;
 }
 
+hr {
+	border: 1px solid #60606d;
+	margin: 0px !important;
+}
+
+.hr-spacing {
+	margin-top: 100px !important;
+	padding-bottom: 80px;
+}
+
 :root {
     --mainColorBlue: #0066ff;
     --mainColorRed: #ff0066;
@@ -104,6 +114,18 @@ li {
 		}
 	}
 
+.stack-medium {
+	width: 68%;
+	margin: auto;
+}
+	@media screen and (max-width: 1023px) {
+		.stack-medium {
+			padding-left: 2%;
+			padding-right: 2%;
+			width: 100%;
+		}
+	}
+
 .stack-large {
 	width: 86%;
 	margin: auto;
@@ -167,7 +189,7 @@ li {
 
 @media (min-width: 576px){
 	.modal-dialog {
-		max-width: 800px !important;
+		max-width: 1200px !important;
 	}
 }
 
@@ -204,6 +226,16 @@ li {
 .hvr-grow:focus,
 .hvr-grow:active {
     transform: scale(1.02);
+}
+
+.circle-red {
+    border-radius: 50%;
+    width: 30px !important;
+    height: 30px !important;
+    background: #ff0066;
+    border: 2px solid #ff0066;
+    color: #FFF;
+    text-align: center;
 }
 
 .border-top {
