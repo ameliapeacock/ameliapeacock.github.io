@@ -23,7 +23,7 @@ body {
 	font-style: normal;
 	font-size: 30px;
 	font-weight: 600;
-	line-height: 40px;
+	line-height: 42px;
 }
 	@media screen and (max-width: 1023px) { .gamma { font-size: 24px; line-height: 32px; }}
 

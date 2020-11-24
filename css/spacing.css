@@ -90,6 +90,24 @@
 	}
 }
 
+@media screen and (max-width: 1023px) {
+	.mobile-no-margin {
+		margin: 0 !important;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.mobile-delta-margin-top {
+		margin-top: 24px !important;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.mobile-delta-margin-bottom {
+		margin-bottom: 24px !important;
+	}
+}
+
 .grid-2 {
 	display: grid;
 	grid-template-columns: repeat(2, 50%);
@@ -158,6 +176,7 @@
 .display-block { display: block; }
 
 .display-inline-block { display: inline-block; }
+	@media screen and (max-width: 1023px) { .mobile-inline-block { display: inline-block !important; }}
 
 .float-left { float: left; }
 
@@ -169,6 +188,8 @@
 
 .align-baseline { vertical-align: baseline; }
 
+.vertical-middle { vertical-align: middle; }
+
 .flex-center {
 	display: flex;
 	align-items: flex-start;
@@ -177,4 +198,3 @@
 .flex-center .selected {
     align-self: center;
 }
-	@media screen and (max-width: 1023px) { .flex-center { display: inline-block; }}
