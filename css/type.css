@@ -46,6 +46,8 @@ body {
 	line-height: 22px;
 }
 
+.weight-xbold { font-weight: 800 !important; }
+
 .weight-bold { font-weight: 600 !important; }
 
 .weight-normal { font-weight: 400 !important; }

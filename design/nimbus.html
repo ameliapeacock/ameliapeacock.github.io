@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/links.css">
 	<link rel="stylesheet" type="text/css" href="../css/spacing.css">
 	<link rel="icon" type="image/x-icon" href="../images/icons/favicon.png" />
-	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -61,8 +61,9 @@
 		<img src="../images/nimbus/nimbus-problem.png" class="full-width">
 	</div>
 	<div class="stack">
-		<div class="epsilon  weight-normal  delta-margin-top">During the 20 years since Capterra’s founding, countless changes have been made to the buyer facing product. From new features, to bug fixes, to rebrands, the website has passed through dozens of different aesthetic styles and voices. Capterra relied on style guides and institutional knowledge to guide design decisions. However, this has created a number of problems:</div>
-		<div class="delta-margin-top">
+		<div class="epsilon  weight-normal  delta-margin-top">During the 20 years since Capterra’s founding, countless changes have been made to the buyer facing product. From new features, to bug fixes, to rebrands, the website has passed through dozens of different aesthetic styles and voices. Capterra relied on style guides and institutional knowledge to guide design decisions.</div>
+		<div class="epsilon  weight-normal  delta-margin-top">However, this has created a number of problems:</div>
+		<div class="epsilon-margin-top">
 			<div class="circle-red  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">1</div><span class="epsilon  vertical-middle">Inconsistent aesthetics and functionality of identical UI elements.</span>
 		</div>
 		<div class="epsilon-margin-top">
@@ -83,41 +84,76 @@
 	<div class="stack">
 		<hr class="hr-spacing">
 		<div class="beta  weight-bold  delta-margin-top">The Process</div>
-		<div class="gamma  weight-normal  delta-margin-top">Capterra's UI had no source of truth: the website was frankensteined together over many years by many different stakeholders. This created an inconsistent user experience and an inefficient development process.</div>
+		<div class="gamma  weight-normal  delta-margin-top">Utilizing a cross-functional team of UI designers, UX designers, frontend developers, and product managers, I followed design thinking principles to research, design, test, redesign, and optimize the system components.</div>
 	</div>
 	<div class="stack-medium  beta-margin-top  beta-margin-bottom">
 		<img src="../images/nimbus/nimbus-process.svg" class="full-width">
 	</div>
 	<div class="stack">
-		<div class="epsilon  weight-normal  delta-margin-top">During the 20 years since Capterra’s founding, countless changes have been made to the buyer facing product. From new features, to bug fixes, to rebrands, the website has passed through dozens of different aesthetic styles and voices. With so many hands subtly molding the product over such a long period of time, design drift (and debt) inevitably started to pile up.</div>
-		<div class="epsilon  weight-normal  delta-margin-top">In recent years, this debt became hard to ignore. Competitors started unveiling sleak rebrands and speedy feature releases while our development teams were stuck wading through dense and confusing frontend spec documents. Our UI had drifted drastically throughout the site resulting in the same exact component appearing differently every time a user encountered it. Our design team had no unified principles guiding our choices. The branding materials didn’t speak the same language as our website. It became clear that Capterra needed a design system. And fast.</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-red-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  weight-xbold  vertical-middle  zeta-margin-right">Audit</span><span class="epsilon  vertical-middle">Find and document every component and style live on the website. Note any relevant patterns that emerge.</span>
+		</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-red-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  weight-xbold  vertical-middle  zeta-margin-right">Ideation</span><span class="epsilon  vertical-middle">How can we improve these patterns? Where do these components fall short? What best practices are we ignoring?</span>
+		</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-red-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  weight-xbold  vertical-middle  zeta-margin-right">Design</span><span class="epsilon  vertical-middle">Research UX interactions for each component. Create a preliminary system of the most common components.</span>
+		</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-red-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  weight-xbold  vertical-middle  zeta-margin-right">Testing</span><span class="epsilon  vertical-middle">Gather qualitative (moderated testing) and quantitave (A/B testing) data about the performance of the components.</span>
+		</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-red-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  weight-xbold  vertical-middle  zeta-margin-right">Refinement</span><span class="epsilon  vertical-middle">Synthesise testing results and apply key learnings to system components and tokens. Retest new designs.</span>
+		</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-red-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  weight-xbold  vertical-middle  zeta-margin-right">Development</span><span class="epsilon  vertical-middle">Create a code repository of responsive, interactive, and optimized components with utility classes and React.</span>
+		</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-red-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  weight-xbold  vertical-middle  zeta-margin-right">Governance</span><span class="epsilon  vertical-middle">Document component use cases, best practices, testing results, and how to add, remove, or adjust components.</span>
+		</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-red-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  weight-xbold  vertical-middle  zeta-margin-right">Deployment</span><span class="epsilon  vertical-middle">Roll out the system to the live site starting with design tokens, and then by updating each page template.</span>
+		</div>
 	</div>
 
 
 	<div class="stack">
 		<hr class="hr-spacing">
 		<div class="beta  weight-bold  delta-margin-top">Evangelizing & Education</div>
-		<div class="gamma  weight-normal  delta-margin-top">Creating a design system requires an enormous amount of resources; securing buy-in from leadership became a major challenge of this project. Timely communication and clear success metrics were key to overcoming this hurdle.</div>
+		<div class="gamma  weight-normal  delta-margin-top">Creating a design system requires an enormous amount of resources; securing buy-in from leadership became a major challenge of this project. Timely communication and clear KPI's were key to success.</div>
 	</div>
 	<div class="stack-medium  beta-margin-top  beta-margin-bottom">
 		<img src="../images/nimbus/nimbus-evangelize.svg" class="full-width">
 	</div>
 	<div class="stack">
-		<div class="epsilon  weight-normal  delta-margin-top">After my initial research into design systems, I gathered expectations from stakeholders. Product wanted deliverables faster when they asked for design and frontend work. Tech wanted to implement a new stack using ElasticSearch, React, Lambchop, and more. Design wanted to stop spending hours creating spec docs of the same components over and over again. Branding, SEO, Marketing, Content, and more eventually became informed stakeholders in this project.</div>
-		<div class="epsilon  weight-normal  delta-margin-top">However, while leadership liked the idea, they didn't want to dedicate the development resources necessary to make it happen. For months my team and I presented our case by showing how the new design improved OKR metrics, did a real-time demo of the laborious design/dev handoff experience versus the new and improved process, and showed off hypothetical redesigns of our major templates. Once we were able to clearly communicate the benefits of a design system from a business and UX perspective, we were able to secure the resources necessary to get the project off the ground.</div>
+		<div class="epsilon  weight-normal  delta-margin-top">After my initial research into design systems, I created a list of stakeholders and gathered expectations. Product, Tech, Branding, SEO, Marketing, and Content became stakeholders with whom we partnered throughout this project.</div>
+		<div class="epsilon  weight-normal  delta-margin-top">However, while leadership liked the idea, they were hesitant to dedicate the development resources necessary to make it happen. I found the most persuasive arguments were grounded in the clear, measurable benefits of the system.</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-red-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">Proved that the new design would improve conversion rates and revenue.</span>
+		</div>
+		<div class="zeta-margin-top">
+			<div class="circle-red-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">Partnered with Tech to ensure the system would reduce page speed.</span>
+		</div>
+		<div class="zeta-margin-top">
+			<div class="circle-red-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">Demoed the laborious design/dev handoff experience versus the new and improved process.</span>
+		</div>
+		<div class="zeta-margin-top">
+			<div class="circle-red-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">Presented hypothetical redesigns of major templates that encoorperated long desired features.</span>
+		</div>
 	</div>
 
 
 	<div class="stack">
 		<hr class="hr-spacing">
 		<div class="beta  weight-bold  delta-margin-top">Prototyping & User Testing</div>
-		<div class="gamma  weight-normal  delta-margin-top">It was vital that none of the changes we introduced would negatively impact conversions, or revenue for Capterra. We tested the new designs with both unmoderated usability testing and AB testing in a live traffic environment.</div>
+		<div class="gamma  weight-normal  delta-margin-top">It was vital that none of the changes we introduced would negatively impact revenue for Capterra. We tested the new designs with unmoderated usability testing, moderated user testing, and live traffic AB testing.</div>
 	</div>
 	<div class="stack-medium  beta-margin-top  beta-margin-bottom">
 		<img src="../images/nimbus/nimbus-testing.svg" class="full-width">
 	</div>
 	<div class="stack">
-		<div class="epsilon  weight-normal  delta-margin-top">With resources secured, it was time to start testing the redesign. For each of the major components we built, we started by researching best practices, building prototypes, and testing them with real users to make sure they would find our site usable and delightful. In some cases, like with our button style, we presented the new design to live traffic in an AB test to verify that conversion rates wouldn’t be affected. In other cases, we presented a variety of designs to testers through unmoderated testing platforms to identify the most usable version of each component.</div>
+		<div class="epsilon  weight-normal  delta-margin-top">For each of the major components we built, we started by researching best practices, building prototypes, and testing them with real users to make sure they would find our site usable and delightful.</div>
+		<div class="epsilon  weight-normal  delta-margin-top">In some cases, like with our button style, we presented the new design to live traffic in an AB test to verify that conversion rates wouldn’t be affected. In other cases, we presented a variety of designs to testers through unmoderated testing platforms to identify the most usable version of each component.</div>
 		<div class="epsilon  weight-normal  delta-margin-top">This process helped not only to convince leadership of the potential revenue gains these design changes could have on our site, but also to consistently remind the design team to create components that are best for the user, and not just aesthetically pleasing.</div>
 	</div>
 
@@ -131,7 +167,8 @@
 		<div class="grid-2">
 			<div class="delta-padding-right  mobile-no-padding">
 				<div class="flex-center  delta-margin-top"><div class="circle-red  epsilon  weight-bold  zeta-margin-right">1</div><div class="delta  weight-bold  selected">Pattern Library</div></div>
-				<div class="epsilon  weight-normal  epsilon-margin-top">With resources secured, it was time to start testing the redesign. For each of the major components we built, we started by researching best practices, building prototypes, and testing them with real users to make sure they would find our site usable and delightful. In some cases, like with our button style, we presented the new design to live traffic in an AB test to verify that conversion rates wouldn’t be.</div>
+				<div class="epsilon  weight-normal  epsilon-margin-top">A pattern library is a collection of user interface design elements. This includes design tokens like color, typography, spacing units, drop shadows, and other “elemental” aspects of UI design.</div>
+				<div class="epsilon  weight-normal  epsilon-margin-top">It also includes design components, what they look like, and how they behave. A pattern library is the design side of a component library (which is the code side).</div>
 			</div>
 			<div>
 				<video autoplay muted loop class="full-width  margin-auto  hover-enlarge  myshadow"  data-toggle="modal" data-target="#pattern"><source src="../images/nimbus/pattern-library.mp4"></video>
@@ -146,7 +183,8 @@
 			</div>
 			<div class="delta-padding-left  mobile-no-padding">
 				<div class="flex-center  delta-margin-top"><div class="circle-red  epsilon  weight-bold  zeta-margin-right">2</div><div class="delta  weight-bold  selected">Token Library</div></div>
-				<div class="epsilon  weight-normal  epsilon-margin-top">With resources secured, it was time to start testing the redesign. For each of the major components we built, we started by researching best practices, building prototypes, and testing them with real users to make sure they would find our site usable and delightful. In some cases, like with our button style, we presented the new design to live traffic in an AB test to verify that conversion rates wouldn’t be.</div>
+				<div class="epsilon  weight-normal  epsilon-margin-top">Design tokens are the fundamental building blocks of the system and create the Style Guide.</div>
+				<div class="epsilon  weight-normal  epsilon-margin-top">Tokens encompass: colors, typography, drop shadows, border radiuses, border widths, spacing units, and more. Design tokens are translated into CSS utility classes and are applied to components.</div>
 			</div>
 			<div class="hide-desk">
 				<img src="../images/nimbus/token-library.svg" class="full-width  hover-enlarge  delta-padding-left"  data-toggle="modal" data-target="#token">
@@ -158,7 +196,8 @@
 		<div class="grid-2">
 			<div class="delta-padding-right  mobile-no-padding">
 				<div class="flex-center  delta-margin-top"><div class="circle-red  epsilon  weight-bold  zeta-margin-right">3</div><div class="delta  weight-bold  selected">Component Library</div></div>
-				<div class="epsilon  weight-normal  epsilon-margin-top">With resources secured, it was time to start testing the redesign. For each of the major components we built, we started by researching best practices, building prototypes, and testing them with real users to make sure they would find our site usable and delightful. In some cases, like with our button style, we presented the new design to live traffic in an AB test to verify that conversion rates wouldn’t be.</div>
+				<div class="epsilon  weight-normal  epsilon-margin-top">A component library is the code repository that houses the system's design tokens and components.</div>
+				<div class="epsilon  weight-normal  epsilon-margin-top">This repository takes care of all the front end styling and interactivity that makes a component look and act like a component, and then packages each component for use in other repositories.</div>
 			</div>
 			<div>
 				<video autoplay muted loop class="full-width  margin-auto  hover-enlarge  myshadow"  data-toggle="modal" data-target="#component"><source src="../images/nimbus/component-library.mp4"></video>
@@ -173,7 +212,8 @@
 			</div>
 			<div class="delta-padding-left  mobile-no-padding">
 				<div class="flex-center  delta-margin-top"><div class="circle-red  epsilon  weight-bold  zeta-margin-right">4</div><div class="delta  weight-bold  selected">Documentation</div></div>
-				<div class="epsilon  weight-normal  epsilon-margin-top">With resources secured, it was time to start testing the redesign. For each of the major components we built, we started by researching best practices, building prototypes, and testing them with real users to make sure they would find our site usable and delightful. In some cases, like with our button style, we presented the new design to live traffic in an AB test to verify that conversion rates wouldn’t be.</div>
+				<div class="epsilon  weight-normal  epsilon-margin-top">System governance is a blueprint to designers, developers, and product managers on how to properly use and adjust the system.</div>
+				<div class="epsilon  weight-normal  epsilon-margin-top">Keyword glossaries, tips and tricks for operating Figma, important links, best practice, and step-by-step instructions on adding components and tokens are detailed in the governance documentation.</div>
 			</div>
 			<div class="hide-desk">
 				<img src="../images/nimbus/documentation.svg" class="full-width  hover-enlarge  delta-padding-right"  data-toggle="modal" data-target="#documentation">
@@ -184,23 +224,39 @@
 	<div class="stack">
 		<hr class="hr-spacing">
 		<div class="beta  weight-bold  delta-margin-top">Core Tenets & Design Philosophy</div>
-		<div class="gamma  weight-normal  delta-margin-top    gamma-margin-bottom   mobile-delta-margin-bottom">It was vital that none of the changes we introduced would negatively impact conversions, or revenue for Capterra. We tested the new designs with both unmoderated usability testing and AB testing in a live traffic environment.</div>
+		<div class="gamma  weight-normal  delta-margin-top  gamma-margin-bottom  mobile-delta-margin-bottom">To ensure that designers are creating components, tokens, and templates that look and feel like parts of one whole, we created a set of design principles that guided our design decisions.</div>
 	</div>
 	<div class="stack">
 		<div class="grid-2">
 			<div class="delta-padding-top  epsilon-margin-right  mobile-no-margin  mobile-delta-margin-bottom">
 				<div class="gamma  color-red">Core Tenants</div>
-				<div class="delta  weight-bold  color-red  epsilon-margin-top">Modular</div><span class="epsilon">Components should always be designed with modularity in mind. This means that no component should be so specific that it is only used in one, or two contexts. This also means that no component can form layout on its own. All components should be combined to form template design.</span>
-				<div class="delta  weight-bold  color-red  epsilon-margin-top">Accessible</div><span class="epsilon">Every aspect of the system must be accessible to all users. Specifically, each component must pass AA color contrast criterion, be keyboard navigable, and be screen reader compatible.</span>
-				<div class="delta  weight-bold  color-red  epsilon-margin-top">Comprehensive</div><span class="epsilon">This system should be thoroughly documented so that designers can quickly and consistently use components correctly. Every component has a comprehensive explanation of governance, use cases, interaction states, and more.</span>
-				<div class="delta  weight-bold  color-red  epsilon-margin-top">Flexible</div><span class="epsilon">Because we design components to be modular, they need to be sufficiently flexible to suit a multitude of use cases. Creating components and design tokens with variants is one way to keep the system organized, and modular.</span>
+				<div class="epsilon-margin-top">
+					<div class="circle-red-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  weight-xbold  vertical-middle  zeta-margin-right">Modular</span><span class="epsilon  vertical-middle">Components should always be designed with modularity in mind. This means that no component should be so specific that it is only used in one, or two contexts. This also means that no component can form layout on its own.</span>
+				</div>
+				<div class="epsilon-margin-top">
+					<div class="circle-red-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  weight-xbold  vertical-middle  zeta-margin-right">Accessible</span><span class="epsilon  vertical-middle">Every aspect of the system must be accessible to all users. Specifically, each component must pass AA color contrast criterion, be keyboard navigable, and be screen reader compatible.</span>
+				</div>
+				<div class="epsilon-margin-top">
+					<div class="circle-red-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  weight-xbold  vertical-middle  zeta-margin-right">Comprehensive</span><span class="epsilon  vertical-middle">This system should be thoroughly documented so that designers can quickly and consistently use components correctly. Every component has a comprehensive explanation of governance, use cases, interaction states, and more.</span>
+				</div>
+				<div class="epsilon-margin-top">
+					<div class="circle-red-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  weight-xbold  vertical-middle  zeta-margin-right">Flexible</span><span class="epsilon  vertical-middle">Because we design components to be modular, they need to be sufficiently flexible to suit a multitude of use cases. Creating components and design tokens with variants is one way to keep the system organized, and modular.</span>
+				</div>
 			</div>
 			<div class="delta-padding-top  epsilon-margin-left  mobile-no-margin">
 				<div class="gamma  color-red">Design Philosophy</div>
-				<div class="delta  weight-bold  color-red  epsilon-margin-top">Vibrant</div><span class="epsilon">We developed a palette of bright, fresh colors to grab user attention and help them focus on our content and tools. These vibrant colors establish visual interest without overwhelming the layout with unnecessary, or distracting imagery.</span>
-				<div class="delta  weight-bold  color-red  epsilon-margin-top">Approachable</div><span class="epsilon">There is an emphasis on organic shapes throughout Nimbus; rounded components like buttons and iconography create an inviting, friendly aesthetic. We focus on accessibility so that all software buyers feel welcome.</span>
-				<div class="delta  weight-bold  color-red  epsilon-margin-top">Dimensional</div><span class="epsilon">Nimbus is optimized to encourage user interaction through mimicking real world experiences. Through the use of drop shadows, added background contrast, and interaction effects, we help users easily perform complicated digital tasks.</span>
-				<div class="delta  weight-bold  color-red  epsilon-margin-top">Authoritative</div><span class="epsilon">Our bold and angular typography portrays a sense of confidence. With clearly defined hierarchy and easy to read font styles, we establish Capterra as a dependable and professional source of information.</span>
+				<div class="epsilon-margin-top">
+					<div class="circle-red-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  weight-xbold  vertical-middle  zeta-margin-right">Vibrant</span><span class="epsilon  vertical-middle">We developed a palette of bright, fresh, pops colors to focus user attention on content and tools. These vibrant colors establish visual interest without overwhelming the layout with unnecessary, or distracting imagery.</span>
+				</div>
+				<div class="epsilon-margin-top">
+					<div class="circle-red-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  weight-xbold  vertical-middle  zeta-margin-right">Approachable</span><span class="epsilon  vertical-middle">There is an emphasis on organic shapes throughout Nimbus; rounded components like buttons and iconography create an inviting, friendly aesthetic. We focus on accessibility so that all software buyers feel welcome.</span>
+				</div>
+				<div class="epsilon-margin-top">
+					<div class="circle-red-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  weight-xbold  vertical-middle  zeta-margin-right">Dimensional</span><span class="epsilon  vertical-middle">Nimbus is optimized to encourage user interaction through mimicking real world experiences. Through the use of drop shadows, added background contrast, and interaction effects, we help users easily perform complicated digital tasks.</span>
+				</div>
+				<div class="epsilon-margin-top">
+					<div class="circle-red-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  weight-xbold  vertical-middle  zeta-margin-right">Authoritative</span><span class="epsilon  vertical-middle">Our bold and angular typography portrays a sense of confidence. With clearly defined hierarchy and easy to read font styles, we establish Capterra as a dependable and professional source of information.</span>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -208,27 +264,25 @@
 	<div class="stack">
 		<hr class="hr-spacing">
 		<div class="beta  weight-bold  delta-margin-top">Key Learnings & Next Steps</div>
-		<div class="gamma  weight-normal  delta-margin-top">It was vital that none of the changes we introduced would negatively impact conversions, or revenue for Capterra. We tested the new designs with both unmoderated usability testing and AB testing in a live traffic environment.</div>
+		<div class="gamma  weight-normal  delta-margin-top">The initial rollout has been met with with positive user feedback and encouraging UX metrics. Next steps include optimizing individual components and building out new features with the system.</div>
 	</div>
 	<div class="stack-medium  beta-margin-top  beta-margin-bottom">
 		<img src="../images/nimbus/key-learnings.svg" class="full-width">
 	</div>
 	<div class="stack  delta-margin-top">
-		<div class="epsilon  weight-normal">During the 20 years since Capterra’s founding, countless changes have been made to the buyer facing product. From new features, to bug fixes, to rebrands, the website has passed through dozens of different aesthetic styles and voices. Capterra relied on style guides and institutional knowledge to guide design decisions. However, this has created a number of problems:</div>
-		<div class="delta-margin-top">
-			<div class="circle-red  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">1</div><span class="epsilon  vertical-middle">Inconsistent aesthetics and functionality of identical UI elements.</span>
+		<div class="epsilon  weight-normal">This project has been one of the most difficult, engaging, and fulfilling experiences of my career. Managing the design of 40+ components, and a scrum team of 6 developers required coordination and, above all, transparent communication.</div>
+		<div class="epsilon  delta-margin-top  weight-normal">Next steps include:</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-red  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">1</div><span class="epsilon  vertical-middle">Introduce design system to relevant stakeholder teams like email marketing, international, brand, etc</span>
 		</div>
 		<div class="epsilon-margin-top">
-			<div class="circle-red  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">2</div><span class="epsilon  vertical-middle">Inefficient spec guide creation and handoff.</span>
+			<div class="circle-red  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">2</div><span class="epsilon  vertical-middle">A more thorough accessibility QA and optimization of keyboard navigation and screen reading compatibility</span>
 		</div>
 		<div class="epsilon-margin-top">
-			<div class="circle-red  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">3</div><span class="epsilon  vertical-middle">Design debt spread across multiple pages making it difficult to prioritize.</span>
+			<div class="circle-red  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">3</div><span class="epsilon  vertical-middle">Investigate and implement theming to reflect sister sites’ branding</span>
 		</div>
 		<div class="epsilon-margin-top">
-			<div class="circle-red  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">4</div><span class="epsilon  vertical-middle">Inability to make feature releases and brand updates as quickly as competitors.</span>
-		</div>
-		<div class="epsilon-margin-top">
-			<div class="circle-red  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">5</div><span class="epsilon  vertical-middle">A lack of unified design principles and guidelines.</span>
+			<div class="circle-red  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">4</div><span class="epsilon  vertical-middle">Partner with UX and CRO to begin testing optimizations of components</span>
 		</div>
 	</div>
 
@@ -247,7 +301,7 @@
 		<h3 class="gamma  text-center">Want to see more of Amelia's work?</h3>
 		<p class="epsilon  text-center  zeta-padding-top">Check out her full design portfolio:</p>
 		<div class="text-center">
-			<a href="http://ameliapeacock.com/#design" class="epsilon  a-green">All Design Examples</a>
+			<a href="http://ameliapeacock.com/#design" class="epsilon  a-red">All Design Examples</a>
 		</div>
 	</div>
 	
