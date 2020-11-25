@@ -238,6 +238,16 @@ li {
     text-align: center;
 }
 
+.circle-red-sm {
+    border-radius: 50%;
+    width: 10px !important;
+    height: 10px !important;
+    background: #ff0066;
+    border: 2px solid #ff0066;
+    color: #FFF;
+    text-align: center;
+}
+
 .border-top {
 	border-top: 1px solid #E2DEEE;
 }
