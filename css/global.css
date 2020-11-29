@@ -249,6 +249,15 @@ li {
     color: #FFF;
     text-align: center;
 }
+	.circle-red-sm {
+	    border-radius: 50%;
+	    width: 10px !important;
+	    height: 10px !important;
+	    background: #ff0066;
+	    border: 2px solid #ff0066;
+	    color: #FFF;
+	    text-align: center;
+	}
 
 .circle-orange {
     border-radius: 50%;
@@ -259,26 +268,34 @@ li {
     color: #FFF;
     text-align: center;
 }
+	.circle-orange-sm {
+	    border-radius: 50%;
+	    width: 10px !important;
+	    height: 10px !important;
+	    background: #ff9d00;
+	    border: 2px solid #ff9d00;
+	    color: #FFF;
+	    text-align: center;
+	}
 
-.circle-red-sm {
+.circle-green {
     border-radius: 50%;
-    width: 10px !important;
-    height: 10px !important;
-    background: #ff0066;
-    border: 2px solid #ff0066;
+    width: 30px !important;
+    height: 30px !important;
+    background: #11aa00;
+    border: 2px solid #11aa00;
     color: #FFF;
     text-align: center;
 }
-
-.circle-orange-sm {
-    border-radius: 50%;
-    width: 10px !important;
-    height: 10px !important;
-    background: #ff9d00;
-    border: 2px solid ##ff9d00;
-    color: #FFF;
-    text-align: center;
-}
+	.circle-green-sm {
+	    border-radius: 50%;
+	    width: 10px !important;
+	    height: 10px !important;
+	    background: #11aa00;
+	    border: 2px solid #11aa00;
+	    color: #FFF;
+	    text-align: center;
+	}
 
 .border-top {
 	border-top: 1px solid #E2DEEE;
