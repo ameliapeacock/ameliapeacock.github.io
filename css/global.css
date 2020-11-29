@@ -114,6 +114,18 @@ li {
 		}
 	}
 
+.stack-small {
+	width: 50%;
+	margin: auto;
+}
+	@media screen and (max-width: 1023px) {
+		.stack-small {
+			padding-left: 2%;
+			padding-right: 2%;
+			width: 100%;
+		}
+	}
+
 .stack-medium {
 	width: 68%;
 	margin: auto;
@@ -238,6 +250,16 @@ li {
     text-align: center;
 }
 
+.circle-orange {
+    border-radius: 50%;
+    width: 30px !important;
+    height: 30px !important;
+    background: #ff9d00;
+    border: 2px solid #ff9d00;
+    color: #FFF;
+    text-align: center;
+}
+
 .circle-red-sm {
     border-radius: 50%;
     width: 10px !important;
@@ -248,8 +270,22 @@ li {
     text-align: center;
 }
 
+.circle-orange-sm {
+    border-radius: 50%;
+    width: 10px !important;
+    height: 10px !important;
+    background: #ff9d00;
+    border: 2px solid ##ff9d00;
+    color: #FFF;
+    text-align: center;
+}
+
 .border-top {
 	border-top: 1px solid #E2DEEE;
+}
+
+.thick-border-orange {
+	border: 10px solid #ff9d00;
 }
 
 .intro {

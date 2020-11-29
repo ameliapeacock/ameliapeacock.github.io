@@ -8,8 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="../css/color.css">
 	<link rel="stylesheet" type="text/css" href="../css/links.css">
 	<link rel="stylesheet" type="text/css" href="../css/spacing.css">
-	<link rel="icon" type="image/x-icon" href="images/icons/favicon.png" />
-	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="../images/icons/favicon.png" />
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -41,7 +41,7 @@
 					<li>100% of users frictionlessly chose the correct software for their needs</li>
 					<li>Users took 20% less time to choose a software option</li>
 				</ul>
-				<div class="epsilon-padding-bottom">
+				<div class="delta-padding-bottom">
 					<a href="#details2" class="epsilon  a-orange">Details <img src="../images/icons/arrow-right-orange.svg" class="icon-sm  align-baseline"></a>
 				</div>
 			</div>
@@ -50,64 +50,204 @@
 	</div>
 
 	<div class="stack" id="details2">
-		<div class="grid-3">
-			<div class="grid-2thirds  delta-padding-right  mobile-no-padding">
-				<div class="gamma  weight-bold">The Problem</div>
-				<div class="delta  epsilon-padding-top">Capterra’s software comparison table is one of its most helpful tools. However, mobile users had a difficult time interacting with the table; the horizontal scrolling and sticky elements were inaccessible, glitchy, and not ideal for comparing many data points at one time.</div>
-				<div class="epsilon  epsilon-padding-top  color-medium-gray">One of Capterra's strongest features is its software product comparison table. However, the table, like many complicated data displays, was never optimized for mobile viewers. In fact, up until Google rolled out mobile-first-indexing, the comparison table was not even accessible for mobile users.</div>
-				<div class="epsilon  epsilon-padding-top  color-medium-gray">One of the major issues was that users had a hard time getting a holistic view of the comparison. Because you could barely fit two columns per mobile screen, users were forced to do a lot of scrolling to compare, for example, the first column with the fourth column. Additionally, the labels for the rows did not stay visible while the user scrolled meaning that you could get to the fourth column and have no obvious indicator of what the section you’re looking at even is. On top of these frustrating features, the table itself was glitchy and slow; poor page performance consistently resulted in higher bounce rates and lower interaction rates.</div>
-			</div>
-			<video autoplay muted loop class="height-400  margin-auto  hover-enlarge"  data-toggle="modal" data-target="#problem"><source src="../images/compare/live-compare.mov"></video>
-		</div>
+		<hr class="beta-padding-bottom">
+		<div class="beta  weight-bold  delta-margin-top">The Problem</div>
+		<div class="gamma  weight-normal  delta-margin-top">Capterra’s software comparison table is one of its most helpful tools. However, mobile users had a difficult time interacting with the table: the horizontal scrolling and sticky elements were inaccessible, glitchy, and not ideal for comparing many data points at one time.</div>
 	</div>
-
-	<div class="stack  color-bg-white  gamma-padding  gamma-margin-top">
-		<div class="grid-3">
+	
+	<div class="stack  delta-margin-top  mobile-delta-margin-bottom">
+		<div class="grid-3  align-center">
 			<div class="grid-2thirds  delta-padding-right  mobile-no-padding">
-				<div class="gamma  weight-bold">Research Findings</div>
-				<div class="delta  epsilon-padding-top">We first surveyed dozens of competitors, market leaders, ecommerce sites, and online marketplaces’ approaches to mobile comparisons and found that no clear consensus exists as to the best approach for this challenge. Instead, we ideated something new.</div>
-				<div class="epsilon  epsilon-padding-top  color-medium-gray">A partner UX designer and I started this project by scouring the internet to find other examples of complex data tables on mobile, watching Hotjar recordings of our users interact with the live template, and completing moderated interviews of buyers in the process of comparing software.</div>
-				<div class="epsilon  epsilon-padding-top  color-medium-gray">It was simple enough to identify which data points were most important to users (pricing, reviews, features, etc.), but it was more of a challenge to find out <span class="italic">how</span> users wanted to view this information. For example, we found that users could navigate the horizontal scroll table, but that it wasn't a pleasant experience - especially on a slow internet connection.</div>
-				<div class="epsilon  epsilon-padding-top  color-medium-gray">Next, we hosted an ideation session with the design team, our product manager, and the scrum team assigned to the project. The group sketched and pitched a number of approaches, from simply improving the current table to feel better and have improved stickiness, to utilizing the phone’s landscape mode for better holistic viewing. We decided to prototype and test an approach that would remove the need for horizontal scrolling all together.</div>
-			</div>
-			<img src="../images/compare/compare-research.png" data-toggle="modal" data-target="#research" class="full-width  hover-enlarge">
-		</div>
-	</div>
-
-	<div class="stack  color-bg-white  gamma-padding  gamma-margin-top">
-		<div class="grid-3">
-			<div class="grid-2thirds  delta-padding-right  mobile-no-padding">
-				<div class="gamma  weight-bold">Prototyping & User Testing</div>
-				<div class="delta  epsilon-padding-top">We tested this design to ensure that users were able to easily and intuitively use the product, as well as to accomplish their goal without interruption or confusion. We went through many rounds of testing and interating to land on a design that worked for our users.</div>
-				<div class="epsilon  epsilon-padding-top  color-medium-gray">After ideation, I mocked up the new approach: breaking the table apart into discrete accordions so that users can compare products across one data point at a time. This design has the advantage of "chunking" information into smaller pieces, and provides an experience that is more accessible to all users.</div>
-				<div class="epsilon  epsilon-padding-top  color-medium-gray">Before testing this design with live traffic, we ran a series of unmoderated usability tests on the new interactions and features. Our driving question was: “Can users draw an informed conclusion about which product best suits their needs as compared to the other products in this list?” We additionally tested user comprehension of new functionality (like the accordions, the altered “remove product” interaction, etc.).</div>
-				<div class="epsilon  epsilon-padding-top  color-medium-gray">We found that users actually had an easier time drawing conclusions about the compared products in the accordion-style view than in the table view. Because most users have one, maybe two, very important data points that matter to their buying decision, they were able to skip right past the data points they viewed as unimportant, and get to comparing on the information that mattered to them.</div>
-			</div>
-			<img src="../images/compare/compare-wireframe-1.svg" data-toggle="modal" data-target="#proto" class="height-500  margin-auto  hover-enlarge">
-		</div>
-	</div>
-
-	<div class="stack  color-bg-white  gamma-padding  gamma-margin-top">
-		<div class="grid-3">
-			<div class="grid-2thirds  delta-padding-right  mobile-no-padding">
-				<div class="gamma  weight-bold">The Solution</div>
-				<div class="delta  epsilon-padding-top">When we stopped thinking about the template as a comparison “table”, and started thinking about it as a comparison “experience”, we were able to create a product that fulfilled user needs even though it looks and acts radically different than before.</div>
-				<div class="epsilon  epsilon-padding-top  color-medium-gray">The new design for the mobile compare page is better described as a bunch of stacked micro-comparisons. Users can customize their comparison by only expanding the data points they’re interested in, and quickly removing any products that don’t meet muster. This view also allows users to easily screenshot an interesting data point, or share the whole comparison with a coworker or boss. Finally, this design provides the user with important context like row and column labels no matter where in the template they are.</div>
-				<div class="epsilon  epsilon-padding-top  color-medium-gray">Phase two of this project will be expanded to include desktop optimizations, and a subtle rearchitecture to help users better understand and navigate through Capterra. For example, this template has quickly become a major source of organic traffic from Google. For these users, this experience will be their first introduction to Capterra. User interviews show us that for these users, it is difficult to quickly understand what Capterra does, and what other tools it has to offer. Providing more context and a more obvious next step after this template will be a key improvement.</div>
-				<div class="epsilon  epsilon-padding-top  color-medium-gray">Currently, there are only two other sources of traffic to these templates. The primary user flow for Capterra’s users is to engage with the comparison page by manually creating a comparison from a main directory of products. While this has worked well for our users in the past, it falls short of being as helpful as possible. Rethinking this user flow and providing more opportunities to see popular comparisons, suggested comparisons, similar comparisons, and other relevant content will be a big step in optimizing this template.</div>
-				<div class="epsilon  epsilon-padding-top  color-medium-gray">Lastly, on the current compare template there is no ability to add products to your comparison directly from within the page. Users are directed back to a directory (even if they landed on the page from Google) to add additional product to their comparison. This user flow has performed poorly; bounce rates for users who attempt to add a product to compare is high. While optimizing the user flow for this page, we will also add the functionality to search for products to compare while on the comparison page.</div>
-				<div class="epsilon  epsilon-padding-top  color-medium-gray">While there is a lot more to be done, this MVP represents a massive improvement for Capterra’s compare page, and for its mobile experience in general.</div>
-				<div class="epsilon  epsilon-padding-top  color-medium-gray  weight-bold">Outcomes:</div>
-				<div class="epsilon  zeta-padding-top  color-medium-gray">10% more users discovered the features section on the mobile compare page (75% of users say features info is important to their purchasing decision). 100% of users were able to frictionlessly choose which software best suited their needs during user testing.</div>
+				<div class="epsilon-margin-top">
+					<div class="circle-orange-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">Users were bouncing at a high rate, and converting at a low rate.</span>
+				</div>
+				<div class="epsilon-margin-top">
+					<div class="circle-orange-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">There was no clear path to access or leave this template.</span>
+				</div>
+				<div class="epsilon-margin-top">
+					<div class="circle-orange-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">Comparing across more than two products was nearly impossible.</span>
+				</div>
+				<div class="epsilon-margin-top">
+					<div class="circle-orange-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">The page was slow and glitchy.</span>
+				</div>
+				<div class="epsilon-margin-top">
+					<div class="circle-orange-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">Google had a difficult time indexing the content.</span>
+				</div>
+				<div class="epsilon-margin-top  delta-margin-bottom">
+					<div class="circle-orange-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">Row labels were not sticky which made it easy to get lost in the table.</span>
+				</div>
 			</div>
 			<div>
-				<video autoplay muted loop class="height-400  margin-auto  hover-enlarge"  data-toggle="modal" data-target="#sol-1"><source src="../images/compare/new-compare.mov"></video>
-				<img src="../images/compare/compare-mock-1.svg" data-toggle="modal" data-target="#sol-2" class="height-500  hover-enlarge">
+				<video autoplay muted loop class="height-500  thick-border-orange  margin-auto"><source src="../images/compare/live-compare.mov"></video>
 			</div>
 		</div>
 	</div>
 
+	<div class="stack">
+		<hr class="hr-spacing">
+		<div class="beta  weight-bold  delta-margin-top">User Journey</div>
+		<div class="gamma  weight-normal  delta-margin-top">Mapping the average user's journey helped us find oportunities for new features, and identify major pain points with the old design. Allowing users to choose their own path, and save the comparison for later was a key improvement we uncovered.</div>
+	</div>
+	<div class="stack-medium  beta-margin-top  beta-margin-bottom">
+		<img src="../images/compare/compare-journey.svg" class="full-width">
+	</div>
+
+	<div class="stack">
+		<hr class="hr-spacing">
+		<div class="beta  weight-bold  delta-margin-top">Research Findings</div>
+		<div class="gamma  weight-normal  delta-margin-top">We surveyed dozens of competitors, market leaders, ecommerce sites, and online marketplaces’ approaches to mobile comparisons and found no clear consensus. We used a variety of elements from these sites, as well as feedback from real users, in our first rounds of testing.</div>
+	</div>
+	<div class="stack-medium  beta-margin-top  beta-margin-bottom">
+		<img src="../images/compare/compare-research.png" class="full-width">
+	</div>
+	<div class="stack">
+		<div class="epsilon  weight-normal  delta-margin-top">After surveying dozens of examples and consolidating existing user feedback and data, my team conducted an ideation session to identify which features and elements were most important to surface in the new design.</div>
+		<div class="epsilon  weight-bold  delta-margin-top">We identified key areas of improvement to optimize our comparison table:</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-orange  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">1</div><span class="epsilon  vertical-middle">Users prioritize pricing information more than other data.</span>
+		</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-orange  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">2</div><span class="epsilon  vertical-middle">Rating and reviews information is important, but easily seen as biased.</span>
+		</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-orange  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">3</div><span class="epsilon  vertical-middle">Large, high-quality product screenshots help users judge how user-friendly the product is.</span>
+		</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-orange  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">4</div><span class="epsilon  vertical-middle">Accordions help users open and close only the data they find valuable.</span>
+		</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-orange  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">5</div><span class="epsilon  vertical-middle">Sticky elements are necessary with horizontally scrolling tables, but can become visually obtrusive.</span>
+		</div>
+	</div>
+
+	<div class="stack">
+		<hr class="hr-spacing">
+		<div class="beta  weight-bold  delta-margin-top">Prototyping & User Testing</div>
+		<div class="gamma  weight-normal  delta-margin-top">We tested multiple designs to ensure that users were able to easily and intuitively use the product, as well as to accomplish their goal without interruption or confusion.</div>
+	</div>
+	
+	<div class="stack  delta-margin-top  mobile-delta-margin-bottom">
+		<div class="grid-3  align-center">
+			<div class="grid-2thirds  delta-padding-right  mobile-no-padding">
+				<div class="epsilon  epsilon-padding-top  epsilon-padding-bottom">I mocked-up and tested a new approach: breaking the table apart into discrete accordions so that users can compare products across one data point at a time.</div>
+				<div class="epsilon  epsilon-padding-top  epsilon-padding-bottom">Our driving question in moderated tests was “Can users draw an informed conclusion about which product best suits their needs as compared to the other products in this list?”. We also tested user comprehension of new functionality and UI elements.</div>
+				<div class="epsilon  weight-bold  epsilon-padding-top  epsilon-padding-bottom">We found that the new design:</div>
+				<div>
+					<img src="../images/icons/check-orange.svg" class="icon-md  vertical-middle  zeta-margin-right  display-inline-block"><span class="epsilon  vertical-middle">"Chunks" the information into easily readable and sortable data.</span>
+				</div>
+				<div class="zeta-padding-top">
+					<img src="../images/icons/check-orange.svg" class="icon-md  vertical-middle  zeta-margin-right  display-inline-block"><span class="epsilon  vertical-middle">Eliminated awkward scrolling and sticky elements.</span>
+				</div>
+				<div class="zeta-padding-top">
+					<img src="../images/icons/check-orange.svg" class="icon-md  vertical-middle  zeta-margin-right  display-inline-block"><span class="epsilon  vertical-middle">Made it easy to add and remove products from the comparison.</span>
+				</div>
+				<div class="zeta-padding-top">
+					<img src="../images/icons/check-orange.svg" class="icon-md  vertical-middle  zeta-margin-right  display-inline-block"><span class="epsilon  vertical-middle">Clearly laid out the pros and cons of each product.</span>
+				</div>
+			</div>
+			<div>
+				<img src="../images/compare/compare-wireframe-1.svg" class="height-500  margin-auto">
+			</div>
+		</div>
+	</div>
+
+	<div class="stack">
+		<hr class="hr-spacing">
+		<div class="beta  weight-bold  delta-margin-top">The Solution</div>
+		<div class="gamma  weight-normal  delta-margin-top">When we stopped thinking about the template as a comparison “table”, and started thinking about it as a comparison “experience”, we were able to create a product that fulfilled user needs even though it looks and acts radically different than before.</div>
+	</div>
+	
+	<div class="stack  beta-margin-top  alpha-margin-bottom  mobile-delta-margin-top  mobile-delta-margin-bottom">
+		<div class="grid-2  align-center">
+			<div class="gamma-padding-right  mobile-no-padding  epsilon-margin-bottom">
+				<div class="flex-center  delta-margin-top"><div class="circle-orange  epsilon  weight-bold  zeta-margin-right">1</div><div class="delta  weight-bold  selected">Stacked Accordions</div></div>
+				<div class="epsilon  weight-normal  epsilon-margin-top">Users can customize their comparison by only expanding the data points they’re interested in, and quickly removing any products that don’t meet muster.</div>
+				<div class="epsilon  weight-normal  epsilon-margin-top">This design provides the user with important context like row and column labels no matter where in the template they are.</div>
+			</div>
+			<div class="grid-2">
+				<video autoplay muted loop class="full-width  mobile-height-250"><source src="../images/compare/compare-sol-1.mov"></video>
+				<img src="../images/compare/compare-sol-1.png" class="full-width  hide-portable">
+			</div>
+		</div>
+	</div>
+
+	<div class="stack  alpha-margin-bottom  mobile-delta-margin-bottom">
+		<div class="grid-2  align-center">
+			<div class="hide-portable  grid-2  margin-auto">
+				<video autoplay muted loop class="full-width  mobile-height-250"><source src="../images/compare/compare-sol-2.mov"></video>
+				<img src="../images/compare/compare-sol-2.png" class="full-width  hide-portable">
+			</div>
+			<div class="gamma-padding-left  mobile-no-padding  epsilon-margin-bottom">
+				<div class="flex-center  delta-margin-top"><div class="circle-orange  epsilon  weight-bold  zeta-margin-right">2</div><div class="delta  weight-bold  selected">Add to Compare</div></div>
+				<div class="epsilon  weight-normal  epsilon-margin-top">Rather than directing users to an entirely different page when they want to add a product to the comparison, users can now search for products to add within the same page.</div>
+				<div class="epsilon  weight-normal  epsilon-margin-top">Keeping the add and remove functionality clear and easy-to-use helps users make the most out of comparing 4 products at a time.</div>
+			</div>
+			<div class="hide-desk">
+				<video autoplay muted loop class="full-width  mobile-height-250"><source src="../images/compare/compare-sol-1.mov"></video>
+			</div>
+		</div>
+	</div>
+
+	<div class="stack  alpha-margin-top  alpha-margin-bottom  mobile-delta-margin-top  mobile-delta-margin-bottom">
+		<div class="grid-2  align-center">
+			<div class="gamma-padding-right  mobile-no-padding  epsilon-margin-bottom">
+				<div class="flex-center  delta-margin-top"><div class="circle-orange  epsilon  weight-bold  zeta-margin-right">3</div><div class="delta  weight-bold  selected">Sharing & Saving</div></div>
+				<div class="epsilon  weight-normal  epsilon-margin-top">We found that often users perform "shallow" reserach on their mobile phones and in-depth research on desktop.</div>
+				<div class="epsilon  weight-normal  epsilon-margin-top">Giving users an easy, clear way to switch from their phone to desktop without skipping a beat allows for a frictionless decion making process.</div>
+			</div>
+			<div class="grid-2">
+				<video autoplay muted loop class="full-width  mobile-height-250"><source src="../images/compare/compare-sol-3.mov"></video>
+				<img src="../images/compare/compare-sol-3.png" class="full-width  hide-portable">
+			</div>
+		</div>
+	</div>
+
+	<div class="stack  alpha-margin-bottom  mobile-delta-margin-bottom">
+		<div class="grid-2  align-center">
+			<div class="hide-portable  grid-2  margin-auto">
+				<video autoplay muted loop class="full-width"><source src="../images/compare/compare-sol-4.mov"></video>
+				<img src="../images/compare/compare-sol-4.png" class="full-width">
+			</div>
+			<div class="gamma-padding-left  mobile-no-padding  epsilon-margin-bottom">
+				<div class="flex-center  delta-margin-top"><div class="circle-orange  epsilon  weight-bold  zeta-margin-right">4</div><div class="delta  weight-bold  selected">Surfacing More Data</div></div>
+				<div class="epsilon  weight-normal  epsilon-margin-top">Research shows that users care deeply about pricing, screenshots, features, and real accounts from fellow users. The accordion design creates new space for this data.</div>
+				<div class="epsilon  weight-normal  epsilon-margin-top">Rethinking our data model allowed us to surface popular comparisons, suggested comparisons, similar comparisons, and other relevant paths for users to follow.</div>
+			</div>
+			<div class="hide-desk">
+				<video autoplay muted loop class="full-width  mobile-height-250"><source src="../images/compare/compare-sol-4.mov"></video>
+			</div>
+		</div>
+	</div>
+
+	<div class="stack">
+		<hr class="hr-spacing">
+		<div class="beta  weight-bold  delta-margin-top">Key Learnings & Next Steps</div>
+		<div class="gamma  weight-normal  delta-margin-top">With all major usability concerns ironed out in testing, and positive feedback from users in moderated testing, the mobile comparison is in development and ready to be rolled out in Q4 2020.</div>
+	</div>
+	<div class="stack-medium  beta-margin-top  beta-margin-bottom">
+		<img src="../images/compare/key-learnings-compare.svg" class="full-width">
+	</div>
 	<div class="stack  delta-margin-top">
+		<div class="epsilon  zeta-padding-top  color-medium-gray">The next step of this project is a subtle rearchitecture to help users better understand Capterra. For many users, this template will be their first introduction to the site. User interviews show us that for these users, it is difficult to quickly understand what Capterra does, and what other tools it has to offer. Clarifying this messaging is a key next improvement.</div>
+		<div class="epsilon  delta-margin-top  weight-normal">Next steps include:</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-orange  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">1</div><span class="epsilon  vertical-middle">Roll out AB test to 100% of traffic to verify user testing findings with large-scale traffic</span>
+		</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-orange  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">2</div><span class="epsilon  vertical-middle">Apply the mobile-first design to desktop and roll out a fully responsive version of the page</span>
+		</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-orange  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">3</div><span class="epsilon  vertical-middle">Optimize page for conversion rate and revenue</span>
+		</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-orange  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">4</div><span class="epsilon  vertical-middle">The page has become increasingly important for organic search results, and we will continue to optimize for SEO</span>
+		</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-orange  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">5</div><span class="epsilon  vertical-middle">Perform additional testing to identify more desired data points</span>
+		</div>
+	</div>
+
+	<div class="stack  alpha-margin-top">
 		<div class="float-right  text-right">
 			<a href="http://ameliapeacock.com/design/dnd" class="epsilon  a-green">Next Case Study <img src="../images/icons/arrow-right-green.svg" class="icon-sm  align-baseline"></a>
 			<p class="zeta  zeta-margin-top  color-gray">D&D Character Creation App</p>
@@ -122,85 +262,8 @@
 		<h3 class="gamma  text-center">Want to see more of Amelia's work?</h3>
 		<p class="epsilon  text-center  zeta-padding-top">Check out her full design portfolio:</p>
 		<div class="text-center">
-			<a href="http://ameliapeacock.com/#design" class="epsilon  a-blue">All Design Examples</a>
+			<a href="http://ameliapeacock.com/#design" class="epsilon  a-orange">All Design Examples</a>
 		</div>
 	</div>
 	
 	<p class="zeta  text-center  zeta-margin-bottom  zeta-padding-top  alpha-margin-top  border-top  color-gray">Developed with Love by Amelia Peacock 2020</p>
-
-
-<!-- MODALS -->
-
-	<div class="modal" id="problem" style="overflow-y: auto">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-body">
-					<a class="float-right" data-dismiss="modal">
-						<img src="../images/icons/icon-close.svg" class="icon-clsoe">
-					</a>
-					<video autoplay muted loop class="full-width"  data-toggle="modal" data-target="#problem">
-						<source src="../images/compare/live-compare.mov">
-					</video>
-				</div><!--modal body-->
-			</div><!--modal content-->
-		</div><!--modal dialog-->
-	</div><!--modal-->
-
-	<div class="modal" id="research" style="overflow-y: auto">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-body">
-					<a class="float-right" data-dismiss="modal">
-						<img src="../images/icons/icon-close.svg" class="icon-clsoe">
-					</a>
-					<img src="../images/compare/compare-research.png" class="full-width">
-				</div><!--modal body-->
-			</div><!--modal content-->
-		</div><!--modal dialog-->
-	</div><!--modal-->
-
-	<div class="modal" id="proto" style="overflow-y: auto">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-body">
-					<a class="float-right" data-dismiss="modal">
-						<img src="../images/icons/icon-close.svg" class="icon-clsoe">
-					</a>
-					<img src="../images/compare/compare-wireframe-1.svg" class="full-width">
-				</div><!--modal body-->
-			</div><!--modal content-->
-		</div><!--modal dialog-->
-	</div><!--modal-->
-
-	<div class="modal" id="sol-1" style="overflow-y: auto">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-body">
-					<a class="float-right" data-dismiss="modal">
-						<img src="../images/icons/icon-close.svg" class="icon-clsoe">
-					</a>
-					<video autoplay muted loop class="full-width"><source src="../images/compare/new-compare.mov"></video>
-				</div><!--modal body-->
-			</div><!--modal content-->
-		</div><!--modal dialog-->
-	</div><!--modal-->
-
-	<div class="modal" id="sol-2" style="overflow-y: auto">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-body">
-					<a class="float-right" data-dismiss="modal">
-						<img src="../images/icons/icon-close.svg" class="icon-clsoe">
-					</a>
-					<img src="../images/compare/compare-mock-1.svg" class="full-width">
-				</div><!--modal body-->
-			</div><!--modal content-->
-		</div><!--modal dialog-->
-	</div><!--modal-->
-
-</main>
-
-</body>
-
-</html>
-			
