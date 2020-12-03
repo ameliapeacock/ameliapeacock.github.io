@@ -212,9 +212,9 @@ li {
 }
 
 .card-half {
-	width: 48%;
+	width: 46%;
 	padding: 32px;
-	margin: 1%;
+	margin: 2%;
 }
 	@media screen and (max-width: 1023px) {
 	.card-half {
