@@ -54,6 +54,8 @@ body {
 
 .italic { font-style: italic; }
 
+.letter-spacing-1 { letter-spacing: 1px !important; }
+
 .no-underline { text-decoration: none !important; }
 
 .underline-hover:hover { text-decoration: underline !important; }
