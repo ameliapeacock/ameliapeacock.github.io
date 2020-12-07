@@ -297,6 +297,26 @@ li {
 	    text-align: center;
 	}
 
+.circle-blue {
+    border-radius: 50%;
+    width: 30px !important;
+    height: 30px !important;
+    background: #0066ff;
+    border: 2px solid #0066ff;
+    color: #FFF;
+    text-align: center;
+}
+	.circle-blue-sm {
+	    border-radius: 50%;
+	    width: 10px !important;
+	    height: 10px !important;
+	    background: #0066ff;
+	    border: 2px solid #0066ff;
+	    color: #FFF;
+	    text-align: center;
+	}
+
+
 .border-top {
 	border-top: 1px solid #E2DEEE;
 }
