@@ -326,7 +326,7 @@ li {
 }
 
 .intro {
-	padding: 150px 40px 150px 40px;
+	padding: 15vh 40px 15vh 40px;
 }
 @media screen and (max-width: 1023px) {
 	.intro {
