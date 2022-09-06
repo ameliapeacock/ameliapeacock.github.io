@@ -43,6 +43,18 @@ hr {
   text-decoration: none;
 }
 
+.a-blue-coming-soon {
+	background: linear-gradient(to bottom, var(--mainColorBlue) 0%, var(--mainColorBlue) 100%);
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-size: 3px 3px;
+	color: #000033 !important;
+	text-decoration: none;
+	padding-bottom: 3px;
+	font-weight: 600;
+	opacity: 40%;
+}
+
 
 .a-red {
 	background: linear-gradient(to bottom, var(--mainColorRed) 0%, var(--mainColorRed) 100%);
@@ -315,6 +327,38 @@ li {
 	    color: #FFF;
 	    text-align: center;
 	}
+
+.chip-red {
+	border-radius: 5px;
+    padding: 4px;
+    background: #ff0066;
+    color: #FFF;
+    text-align: center;
+}
+
+.chip-orange {
+	border-radius: 5px;
+    padding: 4px;
+    background: #ff9d00;
+    color: #FFF;
+    text-align: center;
+}
+
+.chip-green {
+	border-radius: 5px;
+    padding: 4px;
+    background: #11aa00;
+    color: #FFF;
+    text-align: center;
+}
+
+.chip-blue {
+	border-radius: 5px;
+    padding: 4px;
+    background: #0066ff;
+    color: #FFF;
+    text-align: center;
+}
 
 
 .border-top {
