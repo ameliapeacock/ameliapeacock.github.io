@@ -369,6 +369,10 @@ li {
 	border: 10px solid #ff9d00;
 }
 
+.border-green {
+	border: 3px solid #11aa00 !important;
+}
+
 .intro {
 	padding: 15vh 40px 15vh 40px;
 }
