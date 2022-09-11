@@ -54,6 +54,8 @@ body {
 
 .italic { font-style: italic; }
 
+.strike {text-decoration: line-through;}
+
 .letter-spacing-1 { letter-spacing: 1px !important; }
 
 .no-underline { text-decoration: none !important; }
