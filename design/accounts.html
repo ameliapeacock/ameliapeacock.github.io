@@ -32,14 +32,13 @@
 	<div class="stack-large">
 		<div class="grid-2  alpha-padding-top  alpha-padding-bottom  mobile-small-padding">
 			<div>
-				<h1 class="alpha">Accounts Management</h1>
-				<h2 class="gamma  gamma-margin-top  delta-margin-bottom">Through stakeholder research, discovery interviews, and usability tests, I built a new account management and onboarding experience for Morning Consult's SAAS product.</h2>
-				<p class="epsilon  no-margin-bottom"><span class="weight-xbold  letter-spacing-1">TLDR:</span> Morning Consult, a survey research and polling company, wanted to bring survey fielding in-house. As the design owner, I was responsible for research, user experience, and execution.</p>
+				<h1 class="alpha">Accounts System & Sharing</h1>
+				<h2 class="gamma  gamma-margin-top  delta-margin-bottom">I designed an account management experience for Morning Consult's SAAS product to enable in-app sharing and reduce contract servicing costs.</h2>
+				<p class="epsilon  no-margin-bottom"><span class="weight-xbold  letter-spacing-1">TLDR:</span> Users were spending hours creating visualizations with our tools, but couldn't share them with their team members for collaboration, or review. In order to satisfy user needs, the entire account management system needed to be overhauled to enable self-service and data partitioning.</p>
 				<ul class="epsilon  delta-margin-left  epsilon-margin-bottom">
 					<li>Role: Lead Product Designer</li>
 					<li>Software Used: Figma, UserTesting, Amplitude, Miro, Jira</li>
 					<li>Shipped product</li>
-					<li>-50% tech support tickets</li>
 				</ul>
 				<div class="epsilon-padding-bottom">
 					<a href="#details9" class="epsilon  a-blue">Details <img src="../images/icons/arrow-right-blue.svg" class="icon-sm  align-baseline"></a>
@@ -51,21 +50,26 @@
 
 	<div class="stack" id="details9">
 		<hr class="beta-padding-bottom">
-		<div class="beta  weight-bold  delta-margin-top">User Problem</div>
-		<div class="gamma  weight-normal  delta-margin-top">Marriott was mad that they couldn’t share content with each other. Account management was notoriously unreliable and caused endless support tickets. Basic functionality (reset user password, reset user email, invite many new users, assign data access) was missing. How did we find out about these problems?</div>
+		<div class="beta  weight-bold  delta-margin-top">User Problems</div>
+		<div class="gamma  weight-normal  delta-margin-top">Morning Consult clients purchase the platform in order to visualize their real-time polling data. Through discovery interviews with the platform's power users, we uncovered a variety of user problems to focus on while creating OKRs and roadmaps.</div>
 	</div>
-	
 	<div class="stack  delta-margin-top  mobile-delta-margin-bottom">
-		<div class="grid-2  align-center">
-			<div class="delta-padding-right  mobile-no-padding">
+		<div class="grid-3  align-center">
+			<div class="grid-2thirds  delta-padding-right  mobile-no-padding">
 				<div class="epsilon-margin-top">
-					<div class="circle-blue-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">Bullets of each user problem</span>
+					<div class="circle-blue-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">A majority of clients have 2-10 users per account that are all working on similar projects. They want to be able to work together to generate visualizations within the same dashboard. However, visualizations are inaccessible to anyone other than the content owner.</span>
 				</div>
 				<div class="epsilon-margin-top">
-					<div class="circle-blue-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">Bullets of each user problem</span>
+					<div class="circle-blue-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">Morning Consult client success (CS) representatives want to be able to create visualizations for clients and deliver them as a part of their contract. However, because content is locked to individual accounts, they are forced to log into their client's personal accounts and create dashboards there. This presents a variety of security issues.</span>
 				</div>
-				<div class="epsilon-margin-top  delta-margin-bottom">
-					<div class="circle-blue-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">Bullets of each user problem</span>
+				<div class="epsilon-margin-top">
+					<div class="circle-blue-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">CS representatives are in charge of toggling data access within the platform for client accounts. This process is confusing and located in an inaccessible part of the platform. This slows down the account management process and increases the risk of misassigning client data.</span>
+				</div>
+				<div class="epsilon-margin-top">
+					<div class="circle-blue-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">As users get more familiar with the platform and start incorporating it into more and more of their workflows, they want to be able to add new team members to the platform. However, in order to do that, they have to reach out to their CS representative. This slows down adoption and introduces unnecessary barriers to entry.</span>
+				</div>
+				<div class="epsilon-margin-top">
+					<div class="circle-blue-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">Basic functionality (reset password, change email, invite users, assign data access, etc.) is notoriously confusing and the source of dozens of IT support tickets. The cost of servicing basic contracts suffers because of how frequently the process needs developers to help debug.</span>
 				</div>
 			</div>
 			<div>
@@ -78,53 +82,75 @@
 	<div class="stack">
 		<hr class="hr-spacing">
 		<div class="beta  weight-bold  delta-margin-top">Stakeholder research</div>
-		<div class="gamma  weight-normal  delta-margin-top">Technically, all content was tethered to a single user account that had no concept of teams. This meant that there was no way for us to allow for content to pass between accounts without risking a serious data breach. The old tech stack prevented us from implementing important security measures and made developing new features painful.</div>
+		<div class="gamma  weight-normal  delta-margin-top">After documenting user problems, I partnered with my product manager to gather stakeholder input to better understand solution design scope. I interviewed developers, business leaders, and product leaders to create a short, medium, and long term vision for the product.</div>
 	</div>
 	<div class="stack">
-		<div class="epsilon  weight-normal  delta-margin-top">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
+		<div class="epsilon  weight-normal  delta-margin-top">In these interviews I ran through a summary of user feedback and the hypotheses we'd developed for solving these problems. I focused on the most impactful user problem: users wanted to work together within the visualization tool, but were unable to do so easily, or securely. The stakeholder research revealed a number of technical blockers to creating a sharing solution:</div>
 	</div>
 	<div class="stack-medium  beta-margin-top  beta-margin-bottom">
 		<div class="grid-3">
 			<div class="card  myshadow  text-center">
 				<div class="circle-blue  epsilon  weight-bold  margin-auto">1</div>
-				<span class="epsilon  epsilon-padding-top  weight-bold">Lorem ipsum</span>
-				<span class="epsilon  epsilon-padding-top">Can’t separate content by team and there are users with multiple teams</span>
+				<span class="epsilon  epsilon-padding-top  weight-bold">Developing improvements to the account system was painful</span>
+				<span class="epsilon  epsilon-padding-top">The authentication model was built using outdated technology that made introducing new features miserable for the development teams</span>
 			</div>
 			<div class="card  myshadow  text-center">
 				<div class="circle-blue  epsilon  weight-bold  margin-auto">2</div>
-				<span class="epsilon  epsilon-padding-top  weight-bold">Lorem ipsum</span>
-				<span class="epsilon  epsilon-padding-top">Should only be able to share content within your team</span>
+				<span class="epsilon  epsilon-padding-top  weight-bold">The platform's accounts and content were not connected to client teams</span>
+				<span class="epsilon  epsilon-padding-top">Many accounts existed for each client contract, but the data model had no knowledge that these accounts were connected to one another</span>
 			</div>
 			<div class="card  myshadow  text-center">
 				<div class="circle-blue  epsilon  weight-bold  margin-auto">3</div>
-				<span class="epsilon  epsilon-padding-top  weight-bold">Lorem ipsum</span>
-				<span class="epsilon  epsilon-padding-top">No auth permissions set up to allow users to self-service their accounts and set up teams</span>
+				<span class="epsilon  epsilon-padding-top  weight-bold">Users created data visualizations for more than one client team</span>
+				<span class="epsilon  epsilon-padding-top">Internal users were servicing 8-10 client accounts at any given time, and it would be a legal issue to share content with the wrong client</span>
 			</div>
 		</div>
 	</div>
 	<div class="stack">
-		<div class="epsilon  weight-normal  delta-margin-top">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
-		<div class="epsilon  weight-normal  delta-margin-top">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
+		<div class="epsilon  weight-normal  delta-margin-top">I found that users were commonly sharing login information in order to have access to the same content. One of the product team's driving business goals is to increase the number of active users. Uncovering this sharing-work-around was a big motivator to rework the data model to enable cross-team collaboration, and to, hopefully, encourage client teams to onboard new users.</div>
+		<div class="epsilon  weight-normal  delta-margin-top">This stakeholder research illuminated just how many systems would need to be updated to enable a sharing feature. The work was broken up between two scrum teams: one team would focus on rebuilding the authentication model to create a systematized approach to the content-user-team relationship, and one team would focus on building the content sharing MVP.</div>
+		<div class="epsilon  weight-normal  delta-margin-top">Because this work spanned two scrum teams, the order in which designs were needed was a high priority for me and my product manager. It was our goal to reduce (as much as possible) the cross-team blockers and to keep the release schedule iterative and consistent.</div>
 	</div>
 
 
 	<div class="stack">
 		<hr class="hr-spacing">
 		<div class="beta  weight-bold  delta-margin-top">User flow & wireframes</div>
-		<div class="gamma  weight-normal  delta-margin-top">Make a new user flow that includes creating a new team and sharing a dashboard link with their teammates. The wireframes were heavily informed by the developers on my team. It was a collaborative effort to define the MVP.</div>
+		<div class="gamma  weight-normal  delta-margin-top">The sharing MVP required a technical migration which presented an opportunity to overhaul the accounts management UI. After creating an end-to-end user flow from account creation, to visualization sharing, I created wireframes that updated the old UI to the new design system components.</div>
+	</div>
+	<div class="stack  delta-margin-top">
+		<div class="epsilon  weight-normal  delta-margin-top">Technical migrations take time and focus to be done effectively. In previous migrations, it has meant a near halt to feature releases. In this project, we were keen to pair the backend improvements with frontend improvements to maintain continuous delivery of user value. This meant a complete redesign of the accounts management UI, both to the information architecture, and to the user interactions.</div>
 	</div>
 	<div class="stack-large  beta-margin-top  beta-margin-bottom">
 		<img src="../images/accounts/accounts-flow.png" class="full-width">
 	</div>
 	<div class="stack  delta-margin-top">
-		<div class="epsilon  weight-normal  delta-margin-top">What did I do to get these wireframes approved? How did they change? These wireframes helped secure the resources of 2 scrum teams to get this work done.</div>
-		<div class="epsilon  weight-normal  delta-margin-top">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
+		<div class="epsilon  weight-normal  delta-margin-top">I learned from prior user research that many basic functions within the accounts management system caused user confusion and frustration. Something as simple as changing an account's email had resulted in dozens of IT support tickets in the year prior. As I redesigned these pages, I prioritized streamlining these common jobs-to-be-done to reduce friction and add clarity.</div>
+		<div class="epsilon  weight-normal  delta-margin-top">I regularly sought feedback from my development teams and business stakeholders. What I learned was:</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-blue-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">Users need to be able to switch between teams at the site level (rather than at the account management level)</span>
+		</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-blue-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">There are three main user groups: account executives, client success representatives, and external users</span>
+		</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-blue-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">Some account management features shouldn't be accessible to all external users</span>
+		</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-blue-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">Internal users should not be able to see the personal information of users they don't directly manage</span>
+		</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-blue-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">Users need to be able to switch visualizations settings between private and shared</span>
+		</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-blue-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">Shared visualizations can be accessed by everyone on the client team (all or nothing)</span>
+		</div>
 	</div>
 
 	<div class="stack">
 		<hr class="hr-spacing">
 		<div class="beta  weight-bold  delta-margin-top">The solution</div>
-		<div class="gamma  weight-normal  delta-margin-top">The MVP solution for accounts encompassed all of the existing jobs to be done, and introduced the most requested features from users. It also reconfigured the database to recognize different client teams and a toggle to switch between them. Link sharing was the lowest lift option to satisfy user sharing needs.</div>
+		<div class="gamma  weight-normal  delta-margin-top">The MVP solution redesigned the existing accounts pages, introduced the most requested accounts features, reconfigured the database to recognize different client teams, added a toggle to switch between teams, and allowed visualizations to be shared via link within teams.</div>
 	</div>
 	<div class="stack  alpha-margin-top  alpha-margin-bottom  mobile-delta-margin-top  mobile-delta-margin-bottom">
 		<div class="grid-2  align-center">
@@ -132,8 +158,8 @@
 				<div class="epsilon-margin-top">
 					<div class="circle-blue  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">1</div><span class="delta  weight-bold vertical-middle">Team Toggle</span>
 				</div>
-				<div class="epsilon  weight-normal  epsilon-margin-top">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
-				<div class="epsilon  weight-normal  epsilon-margin-top">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
+				<div class="epsilon  weight-normal  epsilon-margin-top">The toggle allows users to be assigned to multiple teams, and to switch their product view to match their active team. All user-created content is also assigned at the team-level.</div>
+				<div class="epsilon  weight-normal  epsilon-margin-top">This feature allows content to be visible by multiple users, while still maintaining privacy: user-created content can't be shared outside of teams. This feature also greatly helped reduce clutter and organize internal users' accounts.</div>
 			</div>
 			<div>
 				<video autoplay muted loop data-toggle="modal" data-target="#account2" class="full-width  myshadow  hover-enlarge"><source src="../images/accounts/team-toggle.mov"></video>
@@ -149,8 +175,8 @@
 				<div class="epsilon-margin-top">
 					<div class="circle-blue  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">2</div><span class="delta  weight-bold vertical-middle">Team Configuration</span>
 				</div>
-				<div class="epsilon  weight-normal  epsilon-margin-top">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
-				<div class="epsilon  weight-normal  epsilon-margin-top">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
+				<div class="epsilon  weight-normal  epsilon-margin-top">The new account management product allows users to quickly configure team settings like adding users, enabling data access, assigning points of contact, and more.</div>
+				<div class="epsilon  weight-normal  epsilon-margin-top">The updated system is now visible to both internal and external users. This allows external users to do more self-service account management. Additionally there are more security guardrails in place to prevent internal users from accessing data they shouldn't be able to see.</div>
 			</div>
 			<div class="hide-desk">
 				<video autoplay muted loop data-toggle="modal" data-target="#account3" class="full-width  myshadow  hover-enlarge"><source src="../images/accounts/account-config.mov"></video>
@@ -163,8 +189,8 @@
 				<div class="epsilon-margin-top">
 					<div class="circle-blue  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">3</div><span class="delta  weight-bold vertical-middle">Link Share</span>
 				</div>
-				<div class="epsilon  weight-normal  epsilon-margin-top">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
-				<div class="epsilon  weight-normal  epsilon-margin-top">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
+				<div class="epsilon  weight-normal  epsilon-margin-top">Users can share a view-only version of their data visualizations with members of their team. At any point they can revoke team-access to their content. As a visualization is updated, so is the view-only version.</div>
+				<div class="epsilon  weight-normal  epsilon-margin-top">Team members can make a copy of a shared dashboard to apply their own updates. While the product does not support multi-user editing right now, the share link was a massive step in the right direction.</div>
 			</div>
 			<div>
 				<video autoplay muted loop data-toggle="modal" data-target="#account4" class="full-width  myshadow  hover-enlarge"><source src="../images/accounts/link-share.mov"></video>
@@ -175,29 +201,32 @@
 	<div class="stack">
 		<hr class="hr-spacing">
 		<div class="beta  weight-bold  delta-margin-top">Prototyping & usability test</div>
-		<div class="gamma  weight-normal  delta-margin-top">Accounts usability test had mostly amazing results with a couple very specific things to fix. The test was on a prototype so that I could implement feedback before going live.</div>
+		<div class="gamma  weight-normal  delta-margin-top">After iterating on the final designs with stakeholders, I ran an unmoderated usability test with 10 users to validate my design decisions and uncover any areas of improvement.</div>
 	</div>
 	<div class="stack-large  beta-margin-top  beta-margin-bottom">
 		<img src="../images/accounts/account-user-research.png" class="full-width">
 	</div>
 	<div class="stack  delta-margin-top">
-		<div class="epsilon  zeta-padding-top  color-medium-gray">What are the learnings?</div>
-		<div class="epsilon  zeta-padding-top  color-medium-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
+		<div class="epsilon  zeta-padding-top  color-medium-gray">I ran this test using a prototype I developed in Figma in an effort to uncover any major usability issues before we began development. After compiling test results, I presented the findings to my team, and implemented a number of UI updates to the mockups. This process helped ensure that when development began, we could move quickly and confidently.</div>
+		<div class="epsilon  zeta-padding-top  color-medium-gray">Because the redesign involved moving many features to new areas of the product, I was particularly interested in testing how quickly/easily users could navigate the new information architecture.</div>
 		<div class="epsilon-margin-top">
-			<div class="circle-blue-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+			<div class="circle-blue-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">Navigational elements (side bar, top tabs) were easy to find and use</span>
 		</div>
 		<div class="epsilon-margin-top">
-			<div class="circle-blue-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+			<div class="circle-blue-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">The flow to add a new user to a team was too similar to the flow to add an existing user to a team</span>
 		</div>
 		<div class="epsilon-margin-top">
-			<div class="circle-blue-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+			<div class="circle-blue-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">Assigning data access to teams was much easier in the new design</span>
+		</div>
+		<div class="epsilon-margin-top">
+			<div class="circle-blue-sm  vertical-middle  zeta-margin-right  display-inline-block"></div><span class="epsilon  vertical-middle">The organization of internal users versus external users was not as clear as it could be</span>
 		</div>
 	</div>
 
 	<div class="stack">
 		<hr class="hr-spacing">
 		<div class="beta  weight-bold  delta-margin-top">Pilot release</div>
-		<div class="gamma  weight-normal  delta-margin-top">Because this change would affect the day-to-day lives of 200+ users, we rolled out the new section with a handful of pilot users before moving onto a wider release. This gave us a chance to kick the tires and fix any bugs we found as well as refining our release documentation to best communicate these changes.</div>
+		<div class="gamma  weight-normal  delta-margin-top">Because the new account management designs would affect the day-to-day lives of 200+ users, we rolled out the product to a handful of pilot users before moving onto a wider release. This gave us an opportunity to fix any bugs and to refine our release documentation to best communicate these changes.</div>
 	</div>
 	<div class="stack  beta-margin-top  beta-margin-bottom  mobile-delta-margin-bottom">
 		<div class="grid-2  align-center">
@@ -205,8 +234,8 @@
 				<img src="../images/accounts/accounts-pilot-1.png" class="full-width">
 			</div>
 			<div class="gamma-padding-left  mobile-no-padding  epsilon-margin-bottom">
-				<div class="epsilon-margin-top  delta  weight-bold">Lorem Ipsum</div>
-				<div class="epsilon  weight-normal  epsilon-margin-top">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
+				<div class="epsilon-margin-top  delta  weight-bold">Overwhelmingly positive feedback on the separated team spaces</div>
+				<div class="epsilon  weight-normal  epsilon-margin-top">Client services representatives were very excited to have dedicated spaces in which to work for each client. The team toggle functioned like a giant filter so that they could focus on one client project at a time.</div>
 			</div>
 		</div>
 	</div>
@@ -216,8 +245,8 @@
 				<img src="../images/accounts/accounts-pilot-2.png" class="full-width">
 			</div>
 			<div class="gamma-padding-left  mobile-no-padding  epsilon-margin-bottom">
-				<div class="epsilon-margin-top  delta  weight-bold">Lorem Ipsum</div>
-				<div class="epsilon  weight-normal  epsilon-margin-top">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
+				<div class="epsilon-margin-top  delta  weight-bold">Uncovered some small bugs and areas for UI enhancement</div>
+				<div class="epsilon  weight-normal  epsilon-margin-top">The pilot users found a couple of incidental bugs that we were able to fix before a wider release. There were also a number of low-lift visual enhancements suggested that we prioritized as fast-follows.</div>
 			</div>
 		</div>
 	</div>
@@ -227,8 +256,8 @@
 				<img src="../images/accounts/accounts-pilot-3.png" class="full-width">
 			</div>
 			<div class="gamma-padding-left  mobile-no-padding  epsilon-margin-bottom">
-				<div class="epsilon-margin-top  delta  weight-bold">Lorem Ipsum</div>
-				<div class="epsilon  weight-normal  epsilon-margin-top">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
+				<div class="epsilon-margin-top  delta  weight-bold">Link sharing works well but should be expanded to encourage collaboration</div>
+				<div class="epsilon  weight-normal  epsilon-margin-top">Link sharing is a great way for account executives to send prospective clients examples of our product offering, but without co-editing functionality, our power users are not able to work as collaboratively as they want.</div>
 			</div>
 		</div>
 	</div>
@@ -236,22 +265,22 @@
 	<div class="stack">
 		<hr class="hr-spacing">
 		<div class="beta  weight-bold  delta-margin-top">Key Learnings & Next Steps</div>
-		<div class="gamma  weight-normal  delta-margin-top">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
+		<div class="gamma  weight-normal  delta-margin-top">The new accounts management tool, team toggle, and sharing MVP have launched to a positive reception. The renewed focus on building collaborative tools helped save a high-profile client contract.</div>
 	</div>
 	<div class="stack-medium  beta-margin-top  beta-margin-bottom">
 		<img src="../images/accounts/key-learnings-account.svg" class="full-width">
 	</div>
 	<div class="stack  delta-margin-top">
-		<div class="epsilon  zeta-padding-top  color-medium-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
+		<div class="epsilon  zeta-padding-top  color-medium-gray">Coordinating two scrum teams for 8 months was a great learning experience in project management, deadlines, and designing in an iterative, non-blocking way. Having a clear vision of the final experience and a path to get there was vital to success.</div>
 		<div class="epsilon  delta-margin-top  weight-normal">Next steps include:</div>
 		<div class="epsilon-margin-top">
-			<div class="circle-blue  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">1</div><span class="epsilon  vertical-middle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</span>
+			<div class="circle-blue  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">1</div><span class="epsilon  vertical-middle">Introduce a hierarchy of user roles to the accounts management system to provide users with varied levels of features</span>
 		</div>
 		<div class="epsilon-margin-top">
-			<div class="circle-blue  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">2</div><span class="epsilon  vertical-middle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</span>
+			<div class="circle-blue  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">2</div><span class="epsilon  vertical-middle">Expand sharing to enable multi-user editing and commenting to encourage broader collaboration within the platform</span>
 		</div>
 		<div class="epsilon-margin-top">
-			<div class="circle-blue  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">3</div><span class="epsilon  vertical-middle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</span>
+			<div class="circle-blue  vertical-middle  epsilon  weight-bold  zeta-margin-right  display-inline-block">3</div><span class="epsilon  vertical-middle">Create a notification system to alert users when changes have been made to their content or team accounts</span>
 		</div>
 	</div>
 
@@ -262,7 +291,7 @@
 		</div>
 		<div class="float-left">
 			<a href="http://ameliapeacock.com/design/easybake" class="epsilon  a-green"><img src="../images/icons/arrow-left-green.svg" class="icon-sm  align-baseline"> Previous Case Study</a>
-			<p class="zeta  zeta-margin-top  color-gray">Easybake: A Survey Builder</p>
+			<p class="zeta  zeta-margin-top  color-gray">Proprietary Survey Builder</p>
 		</div>
 	</div>
 
