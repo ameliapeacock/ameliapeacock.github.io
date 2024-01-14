@@ -13,6 +13,10 @@ hr {
 	margin: 0px !important;
 }
 
+a {
+	text-decoration: none !important;
+}
+
 .hr-spacing {
 	margin-top: 100px !important;
 	padding-bottom: 80px;
@@ -120,6 +124,18 @@ li {
 }
 	@media screen and (max-width: 1023px) {
 		.stack {
+			padding-left: 2%;
+			padding-right: 2%;
+			width: 100%;
+		}
+	}
+
+.stack-home {
+	width: 900px;
+	margin: auto;
+}
+	@media screen and (max-width: 899px) {
+		.stack-home {
 			padding-left: 2%;
 			padding-right: 2%;
 			width: 100%;
@@ -334,6 +350,7 @@ li {
     background: #ff0066;
     color: #FFF;
     text-align: center;
+    white-space:nowrap;
 }
 
 .chip-orange {
@@ -342,6 +359,7 @@ li {
     background: #ff9d00;
     color: #FFF;
     text-align: center;
+    white-space:nowrap;
 }
 
 .chip-green {
@@ -350,6 +368,7 @@ li {
     background: #11aa00;
     color: #FFF;
     text-align: center;
+    white-space:nowrap;
 }
 
 .chip-blue {
@@ -358,8 +377,14 @@ li {
     background: #0066ff;
     color: #FFF;
     text-align: center;
+    white-space:nowrap;
 }
 
+.chip-list {
+	margin-right: 8px;
+	margin-top: 8px !important;
+	float: left;
+}
 
 .border-top {
 	border-top: 1px solid #E2DEEE;
@@ -372,9 +397,9 @@ li {
 .border-green {
 	border: 3px solid #11aa00 !important;
 }
-
+chip-red
 .intro {
-	padding: 15vh 40px 15vh 40px;
+	padding: 15vh 40px 80px 40px;
 }
 @media screen and (max-width: 1023px) {
 	.intro {
@@ -387,4 +412,3 @@ li {
 		padding: 40px 12px 40px 12px !important;
 	}
 }
-
