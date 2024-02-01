@@ -397,7 +397,7 @@ li {
 .border-green {
 	border: 3px solid #11aa00 !important;
 }
-chip-red
+
 .intro {
 	padding: 15vh 40px 80px 40px;
 }
@@ -411,4 +411,63 @@ chip-red
 	.mobile-small-padding {
 		padding: 40px 12px 40px 12px !important;
 	}
+}
+
+
+
+/*calendar*/
+
+.calendar {
+	border-radius: 6px;
+}
+
+ol {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 1em;
+  margin: 0 auto !important;
+  padding: 0;
+}
+
+ol.day-grid li {
+  background-color: #D5F5D2;
+  border: 2px solid #11aa00;
+  height: 10vw;
+  max-height: 110px;
+  border-radius: 6px;
+}
+
+.month-prev {
+  background-color: #fff !important;
+  border: 1px solid #C2E6BF !important;
+  font-weight: 600;
+  list-style: none;
+  padding: 8px;
+}
+
+.cal-link {
+	color: #000033;
+	list-style: none;
+	padding: 8px;
+}
+
+.cal-link:hover {
+	background-color: #C2E6BF;
+}
+
+.cal-text {
+	padding-top: 8px;
+	display: block;
+}
+	@media screen and (max-width: 1023px) {
+		.cal-text {
+			display: none;
+		}
+	}
+
+
+@media all and (max-width: 800px) {
+  ol {
+    grid-gap: .25em;
+  }
 }
