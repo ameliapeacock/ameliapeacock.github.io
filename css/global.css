@@ -465,9 +465,13 @@ ol.day-grid li {
 		}
 	}
 
-
 @media all and (max-width: 800px) {
   ol {
     grid-gap: .25em;
   }
+}
+
+.fig-vertical-vid {
+	display: flex;
+	justify-content: center;
 }
