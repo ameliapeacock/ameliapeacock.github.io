@@ -172,6 +172,8 @@
 
 .height-500 { height: 500px; }
 
+.height-600 { height: 600px; }
+
 .one-quarter-width { width: 25%; }
 	@media screen and (max-width: 1023px) { .one-quarter-width { width: 100%; }}
 
