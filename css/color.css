@@ -25,12 +25,18 @@
 	.color-blue {
 		color: #0066ff;
 	}
+	.color-bg-light-blue {
+	background-color: #E6F0FF;
+	}
 
 .color-bg-red {
 	background-color: #ff0066;
 }
 	.color-red {
 		color: #ff0066;
+	}
+	.color-bg-light-red {
+	background-color: #FFE6F0;
 	}
 
 .color-bg-orange {
@@ -39,10 +45,16 @@
 	.color-orange {
 		color: #ff9d00;
 	}
+	.color-bg-light-orange {
+	background-color: #FFF5E6;
+	}
 
 .color-bg-green {
 	background-color: #11aa00;
 }
 	.color-green {
 		color: #11aa00;
+	}
+	.color-bg-light-green {
+	background-color: #E7F7E6;
 	}
