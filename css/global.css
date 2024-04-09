@@ -59,7 +59,6 @@ a {
 	opacity: 40%;
 }
 
-
 .a-red {
 	background: linear-gradient(to bottom, var(--mainColorRed) 0%, var(--mainColorRed) 100%);
 	background-position: 0 100%;
@@ -474,4 +473,44 @@ ol.day-grid li {
 .fig-vertical-vid {
 	display: flex;
 	justify-content: center;
+}
+
+.home-icons {
+	display: flex;
+	align-items: center;
+}
+@media screen and (max-width: 1023px) {
+		.home-icons {
+			display: block;
+		}
+	}
+
+
+
+
+/* Apply only the easing animation to accordion content */
+.accordion-header:hover {
+	cursor: pointer;
+}
+
+.accordion-content {
+  overflow: hidden;
+  max-height: 0;
+  animation: accordionOpen 0.4s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  transition: max-height 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.accordion.active .accordion-content {
+	margin-top: 8px;
+}
+
+/* Rotate the arrow icon when the accordion is active */
+.accordion.active .accordion-icon {
+  transform: rotate(180deg);
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1); /* Apply easing to the rotation */
+}
+
+/* Adjusting styles for expanded state */
+.accordion.active .accordion-content {
+  max-height: 1000px; /* Adjust this value to your desired max-height */
 }
