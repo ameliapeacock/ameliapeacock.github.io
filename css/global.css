@@ -346,8 +346,8 @@ li {
 .chip-red {
 	border-radius: 5px;
     padding: 4px;
-    background: #ff0066;
-    color: #FFF;
+    background: #FFE6F0;
+    color: #FF0066;
     text-align: center;
     white-space:nowrap;
 }
@@ -355,8 +355,8 @@ li {
 .chip-orange {
 	border-radius: 5px;
     padding: 4px;
-    background: #ff9d00;
-    color: #FFF;
+    background: #FFF5E6;
+    color: #D98500;
     text-align: center;
     white-space:nowrap;
 }
@@ -364,8 +364,8 @@ li {
 .chip-green {
 	border-radius: 5px;
     padding: 4px;
-    background: #11aa00;
-    color: #FFF;
+    background: #E7F7E6;
+    color: #11AA00;
     text-align: center;
     white-space:nowrap;
 }
@@ -373,8 +373,8 @@ li {
 .chip-blue {
 	border-radius: 5px;
     padding: 4px;
-    background: #0066ff;
-    color: #FFF;
+    background: #E6F0FF;
+    color: #0066FF;
     text-align: center;
     white-space:nowrap;
 }
@@ -489,6 +489,12 @@ ol.day-grid li {
 
 
 /* Apply only the easing animation to accordion content */
+@media screen and (max-width: 1023px) {
+		.accordion-container {
+			margin-top: 48px;
+		}
+	}
+
 .accordion-header:hover {
 	cursor: pointer;
 }
@@ -513,4 +519,5 @@ ol.day-grid li {
 /* Adjusting styles for expanded state */
 .accordion.active .accordion-content {
   max-height: 1000px; /* Adjust this value to your desired max-height */
+  padding: 16px 0px 16px 0px;
 }

@@ -11,7 +11,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
       // Toggle visibility of accordion content
       if (accordion.classList.contains("active")) {
-        content.style.maxHeight = content.scrollHeight + "px";
+        const contentHeight = content.scrollHeight + parseFloat(window.getComputedStyle(content).paddingTop) + parseFloat(window.getComputedStyle(content).paddingBottom);
+        content.style.maxHeight = contentHeight + "px";
       } else {
         content.style.maxHeight = null;
       }
